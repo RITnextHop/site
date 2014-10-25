@@ -46,6 +46,7 @@ html,body {
 	padding-left: 3px;
 }
 .contact textarea {
+	resize: none;
 	margin: 10px 0 10px 0;
 	font-family: 'Noto Sans', sans-serif;
 	font-size: 16px;
@@ -67,12 +68,19 @@ html,body {
 	display: inline-block;
 	margin: 30px 0 30px 0;
 }
-@media (min-width:1000px) {
+@media (min-width:950px) {
 	#nextHop {
 		display:none;
 	}
+	.contact input[type=text],textarea {
+		width: 50%;
+	}
+	.contact input[type=submit] {
+		width: 10%;
+		margin-left: 40%;
+	}
 }
-@media (max-width:1000px) {
+@media (max-width:950px) {
 	.sectionInner {
 		margin: 0 50px;
 		max-width: 1000px;
@@ -82,6 +90,10 @@ html,body {
 	}
 	#topBar img {
 		display: none;
+	}
+	.contact input,textarea {
+		width: 100%;
+		resize: none;
 	}
 }
 </style>
