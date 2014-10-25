@@ -1,0 +1,141 @@
+<!doctype HTML>
+
+<head>
+<style>
+html,body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Noto Sans', sans-serif;
+	color: #545454;
+	font-size: 16px;
+}
+.section {
+	padding: 200px;
+	padding: 0;
+	margin: 30px 0;
+}
+.padLeft {
+	margin-left: 30px;
+}
+.text {
+	line-height: 30px;
+}
+.text > h1 {
+	margin: 0 0 15px 0;
+}
+.sectionInner {
+	margin: 0 auto;
+	max-width: 950px;
+}
+#footer {
+	background-image: url("http://imgur.com/syudJMa.png");
+	margin: 175px 0 0 0;
+	padding: 0;
+	text-align: center;
+	max-width: 100%;
+	line-height: 30px;
+	font-weight: bold;
+}
+.contact input {
+	height: 30px;
+	margin: 10px 0 10px 0;
+	font-size: 16px;
+	border-radius: 3px;
+	border: 1px solid #545454;
+	padding-left: 3px;
+}
+.contact textarea {
+	margin: 10px 0 10px 0;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	border-radius: 3px;
+	border: 1px solid #545454;
+	padding-left: 3px;
+}
+#topBar {
+	text-align: center;
+	background-image: url("http://imgur.com/syudJMa.png");
+	margin-top: 0;
+}
+#topBar img {
+	padding: 100px 0;
+}
+#nextHop {
+	font-size: 80px;
+	font-weight: bolder;
+	display: inline-block;
+	margin: 30px 0 30px 0;
+}
+@media (min-width:1000px) {
+	#nextHop {
+		display:none;
+	}
+}
+@media (max-width:1000px) {
+	.sectionInner {
+		margin: 0 50px;
+		max-width: 1000px;
+	}
+	.padLeft {
+		margin: 0;
+	}
+	#topBar img {
+		display: none;
+	}
+}
+</style>
+<link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<title>Next Hop</title>
+</head>
+
+<body>
+
+	<div class="section" id="topBar">
+		<div class="sectionInner">
+			<img style="margin:0 auto;" src="http://placehold.it/600x300&text=Logo" />
+			<span id="nextHop">Next Hop</span>
+		</div>
+	</div>
+	<div class="section" id="about">
+		<div class="sectionInner text">
+			<h1><i class="fa fa-question-circle"></i> What is Next Hop?</h1>
+			<div class="padLeft">	
+				<p>Next Hop is an organization at the Rochester Institute of Technology geared towards students interested in the fields of networking and systems administration. The name Next Hop comes from a networking term that describes the next router along a path to a given destination. The club serves two core functions: community building and knowledge development. 
+				<p>The community building aspect of Next Hop is geared towards bringing students together from multiple disciplines who share a core common interest set. Knowledge development is focused on building core and advanced level skills through a variety of workshops and presentations with topics ranging from basic skills to emerging technologies. Knowledge development spans both academic and professional knowledge spheres. </p>
+			</div>
+		</div>
+	</div>
+	<div class="section" id="events">
+		<div class="sectionInner text">
+			<h1><i class="fa fa-calendar"></i> Events</h1>
+			<div class="padLeft">
+				<p>Lorem ipsum dolor sit amet, ei dolores voluptua per, eum an commodo rationibus intellegam. Sed ei solum mediocrem, nec an minim persius eligendi. Et has legendos perpetua vituperata, et autem intellegam assueverit mel. At qui simul iisque. Cibo sadipscing est in, ne vidit novum lobortis est, has erant numquam eu. Stet apeirian cu est.</p>
+
+				<p>Mei fabulas mediocritatem ad. Ullum propriae accusata ius ei, mei ne maiorum placerat, has graece utamur utroque ne. Sea id porro etiam, sea ut everti iracundia, vim cu illud dolor inimicus. Agam liber ex quo, ex mel probo ipsum putant.</p>
+			</div>
+		</div>
+	</div>
+	<div class="section" id="contact">
+		<div class="sectionInner text">
+			<h1><i class="fa fa-bullhorn"></i> Contact</h1>
+			<div class="padLeft">
+				<form class="contact">
+					<input type="text" name="email" placeholder="Your Email Address"/><br>
+					<input type="text" name="name" placeholder="Your Name"/><br>
+					<textarea rows="4" cols="50" placeholder="What's up?"></textarea><br>
+					<input type="submit" value="Send"/>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="section" id="footer">
+		<div class="sectionInner">
+			&copy; 2014 Next Hop
+		</div>
+	</div>
+
+</body>
+
+</html>
