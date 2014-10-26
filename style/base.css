@@ -40,7 +40,7 @@ a:hover {
 	max-width: 950px;
 }
 #footer {
-	background-image: url("http://imgur.com/syudJMa.png");
+	/*background-image: url("http://imgur.com/syudJMa.png");*/
 	margin: 175px 0 0 0;
 	padding: 0;
 	text-align: center;
@@ -65,16 +65,19 @@ a:hover {
 	border: 1px solid #545454;
 	padding-left: 3px;
 }
+form.contact {
+	margin-left: 2em;
+}
 #topBar {
 	text-align: center;
 	background-image: url("http://imgur.com/syudJMa.png");
 	margin-top: 0;
 }
-#governance {
+#governance_contact {
 	background-image: url("http://imgur.com/PIJWrEi.jpg");
 	padding: 30px 0 30px 0;
 }
-.govText {
+.gov_contactText {
 	background-color: white;
 	padding: 15px;
 	border-radius: 30px;
@@ -88,6 +91,10 @@ a:hover {
 	font-weight: bolder;
 	display: inline-block;
 	margin: 30px 0 30px 0;
+}
+.fiftyFloat {
+	float: left;
+	width: 50%;
 }
 @media (min-width:950px) {
 	#nextHop {
