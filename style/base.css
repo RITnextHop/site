@@ -66,14 +66,14 @@ a:hover {
 }
 #topBar {
 	text-align: center;
-	background-image: url("http://imgur.com/syudJMa.png");
+	background-image: url("/images/header.png");
 	margin-top: 0;
 }
 h3.event{
 	margin-bottom: 0px;
 }
 #governance_contact {
-	background-image: url("http://imgur.com/PIJWrEi.jpg");
+	background-image: url("/images/governancebg.jpg");
 	padding: 30px 0 30px 0;
 }
 #topBar img {
