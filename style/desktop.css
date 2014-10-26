@@ -1,4 +1,7 @@
 @media (min-width:950px) {
+	.sectionInner {
+		margin: 0 auto;
+	}
 	#nextHop {
 		display:none;
 	}
@@ -20,7 +23,7 @@
 }
 @media (max-width:950px) {
 	.sectionInner {
-		margin: 0 50px;
+		margin: 0 5px;
 		max-width: 1000px;
 	}
 	.padLeft {
