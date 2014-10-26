@@ -1,5 +1,5 @@
 <?php
-	include "configVars.php"; 
+	include "configVars.php";
 	include "events.php";
 ?>
 <!doctype HTML>
@@ -8,7 +8,7 @@
 <link rel="stylesheet" id="base" type="text/css" href="style/base.css">
 <link rel="stylesheet" id="medium" type="text/css" href="style/desktop.css">
 <link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="style/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <meta name="viewport" content="initial-scale=1">
 <title>Next Hop</title>
 <script>
@@ -80,7 +80,7 @@ if(window.mobilecheck()) {
 						<input type="submit" value="Send"/>
 					</form>
 				</div>
-			</div>		
+			</div>
 		</div>
 	</div>
 	<div class="section" id="footer">
