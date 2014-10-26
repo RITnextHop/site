@@ -69,6 +69,9 @@ a:hover {
 	background-image: url("http://imgur.com/syudJMa.png");
 	margin-top: 0;
 }
+h3.event{
+	margin-bottom: 0px;
+}
 #governance_contact {
 	background-image: url("http://imgur.com/PIJWrEi.jpg");
 	padding: 30px 0 30px 0;
@@ -96,6 +99,11 @@ a:hover {
 		float: left;
 		width: 50%;
 	}
+	div.event {
+		width: 45%;
+		float: left;
+		margin-left: 5%;
+	}
 }
 @media (max-width:950px) {
 	.sectionInner {
@@ -109,6 +117,10 @@ a:hover {
 		display: none;
 	}
 	.fiftyFloat {
+		float:none;
+		width:100%;
+	}
+	div.event {
 		float:none;
 		width:100%;
 	}
