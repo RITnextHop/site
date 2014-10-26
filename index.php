@@ -1,5 +1,6 @@
 <?php
 	include "configVars.php"; 
+	include "events.php";
 ?>
 <!doctype HTML>
 <!--RIT Next Hop Club Site -->
@@ -29,9 +30,13 @@
 		<div class="sectionInner text">
 			<h1 class="sectionHeader"><i class="fa fa-calendar"></i> Events</h1>
 			<div class="padLeft">
-				<p>Lorem ipsum dolor sit amet, ei dolores voluptua per, eum an commodo rationibus intellegam. Sed ei solum mediocrem, nec an minim persius eligendi. Et has legendos perpetua vituperata, et autem intellegam assueverit mel. At qui simul iisque. Cibo sadipscing est in, ne vidit novum lobortis est, has erant numquam eu. Stet apeirian cu est.</p>
-
-				<p>Mei fabulas mediocritatem ad. Ullum propriae accusata ius ei, mei ne maiorum placerat, has graece utamur utroque ne. Sea id porro etiam, sea ut everti iracundia, vim cu illud dolor inimicus. Agam liber ex quo, ex mel probo ipsum putant.</p>
+			<?php foreach ($events as $event) {?>
+				<div class="event" >
+				<h3 class="event"><?php echo $event->date; ?>, <?php echo $event->time; ?></h3>
+				<?php echo $event->location; ?>
+				<p><?php echo $event->description; ?></p>
+				</div>
+			<?php } ?>
 			</div>
 		</div>
 	</div>
