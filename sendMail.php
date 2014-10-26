@@ -11,10 +11,10 @@
 		$sendMessage .= "$message";
 		
 		if(mail("ritnexthop@gmail.com","Contact Form Submission",$sendMessage)) {
-			$status = "SUCCESS";
+			$status = "SUCCESS";	//eventually going to have some kind of confirmation after send
 		}
 		else {
-			$status = "FAIL";
+			$status = "FAIL";		//eventually going to have some kind of alert if send is a fail
 		}
 		
 		header( "Location: http://nh.brucedewald.com?status=$status" );
