@@ -55,6 +55,7 @@ a:hover {
 	border-radius: 3px;
 	border: 1px solid #545454;
 	padding-left: 3px;
+	width: 80%;
 }
 .contact textarea {
 	resize: none;
@@ -64,6 +65,7 @@ a:hover {
 	border-radius: 3px;
 	border: 1px solid #545454;
 	padding-left: 3px;
+	width:80%;
 }
 form.contact {
 	margin-left: 2em;
@@ -100,12 +102,6 @@ form.contact {
 	#nextHop {
 		display:none;
 	}
-	.contact input[type=text],textarea {
-		width: 80%;
-	}
-	.contact input[type=submit] {
-		width: 80%;
-	}
 }
 @media (max-width:950px) {
 	.sectionInner {
@@ -117,9 +113,5 @@ form.contact {
 	}
 	#topBar img {
 		display: none;
-	}
-	.contact input,textarea {
-		width: 100%;
-		resize: none;
 	}
 }
