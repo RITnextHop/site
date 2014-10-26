@@ -6,18 +6,15 @@ html,body {
 	color: #545454;
 	font-size: 16px;
 }
-
 a:link {
 	text-decoration: none;
 	font-weight: bold;
 	color: #545454;
 }
-
 a:visited {
 	text-decoration: none;
 	font-weight: bold;
 }
-
 a:hover {
 	color: black;
 }
@@ -32,15 +29,15 @@ a:hover {
 .text {
 	line-height: 30px;
 }
-.text > h1 {
+.sectionHeader h1 {
 	margin: 0 0 15px 0;
 }
 .sectionInner {
 	margin: 0 auto;
 	max-width: 950px;
+	overflow: auto;
 }
 #footer {
-	/*background-image: url("http://imgur.com/syudJMa.png");*/
 	margin: 175px 0 0 0;
 	padding: 0;
 	text-align: center;
@@ -67,9 +64,6 @@ a:hover {
 	padding-left: 3px;
 	width:80%;
 }
-form.contact {
-	margin-left: 2em;
-}
 #topBar {
 	text-align: center;
 	background-image: url("http://imgur.com/syudJMa.png");
@@ -94,13 +88,13 @@ form.contact {
 	display: inline-block;
 	margin: 30px 0 30px 0;
 }
-.fiftyFloat {
-	float: left;
-	width: 50%;
-}
 @media (min-width:950px) {
 	#nextHop {
 		display:none;
+	}
+	.fiftyFloat {
+		float: left;
+		width: 50%;
 	}
 }
 @media (max-width:950px) {
@@ -113,5 +107,9 @@ form.contact {
 	}
 	#topBar img {
 		display: none;
+	}
+	.fiftyFloat {
+		float:none;
+		width:100%;
 	}
 }
