@@ -17,7 +17,7 @@
 			$status = "FAIL";
 		}
 		
-		header( "Location: http://nh.brucedewald.com&status=$status" );
+		header( "Location: http://nh.brucedewald.com?status=$status" );
 	}
 ?>
 	
