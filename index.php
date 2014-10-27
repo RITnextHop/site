@@ -3,7 +3,7 @@
 	include "events.php";
 	$mailStatus = $_POST["status"];
 	if(status=='nameEmpty'){
-		?><script>alert("I am an alert box!");</script><?php>
+		?><script>alert("I am an alert box!");</script><?php
 	}
 ?>
 <!doctype HTML>
