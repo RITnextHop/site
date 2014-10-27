@@ -59,9 +59,9 @@ if(window.mobilecheck()) {
 				<div class="padLeft">
 					<h2>Executive Board</h2>
 					<ul>
-						<li>President: <a href="mailto:<?php echo $president_email; ?>"><?php echo $president_fullName; ?></a> - <?php echo $president_majorYear; ?></li>
-						<li>Vice President: <a href="mailto:<?php echo $vicePresident_email; ?>"><?php echo $vicePresident_fullName; ?></a> - <?php echo $vicePresident_majorYear; ?></li>
-						<li>Treasurer: <a href="mailto:<? echo $treasurer_email; ?>"><? echo $treasurer_fullName; ?></a> - <?php echo $treasurer_majorYear; ?></li>
+						<li>President: <a href="mailto:<?php echo $president_email; ?>"><?php echo $president_fullName; ?></a><br /><?php echo $president_majorYear; ?></li>
+						<li>Vice President: <a href="mailto:<?php echo $vicePresident_email; ?>"><?php echo $vicePresident_fullName; ?></a><br /><?php echo $vicePresident_majorYear; ?></li>
+						<li>Treasurer: <a href="mailto:<? echo $treasurer_email; ?>"><? echo $treasurer_fullName; ?></a><br /><?php echo $treasurer_majorYear; ?></li>
 					</ul>
 					<h2>Advisor</h2>
 					<ul>
