@@ -3,7 +3,7 @@
 	$senderName = $_POST["senderName"];
 	$email = $_POST["email"];
 	$message = htmlspecialchars($_POST["message"]);
-
+	date.timezone = America/New_York
 // Validate Name
 if (empty($senderName)) {
 		$nameErr = "<div class='errors'>Name can not be empty.</div>";
