@@ -1,7 +1,7 @@
 <?php
 	include "configVars.php";
 	include "events.php";
-	include "sendMail.php"
+	include "sendMail.php";
 ?>
 <!doctype HTML>
 <!--RIT Next Hop Club Site -->
