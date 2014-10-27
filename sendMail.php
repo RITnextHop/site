@@ -9,27 +9,27 @@
 
     $values=array
     (
-        'contact-user-name'     => $_POST['contact-user-name'],
-        'contact-user-email'	=> $_POST['contact-user-email'],
-        'contact-message'       => $_POST['contact-message']
+        'contact-user-name'     => $senderName,
+        'contact-user-email'	=> $email,
+        'contact-message'       => $message
     );
 
 	if(isEmpty($values['$senderName']))
     {
         $response['error']=1;
-        $response['info'][]=array('fieldId'=>'senderName','message'=>_msg_invalid_data_name);
+        $response['info'][]=array('fieldId'=>'contact-user-name','message'=>_msg_invalid_data_name);
     }
 
   if(!validateEmail($values['$email']))
     {
         $response['error']=1;
-        $response['info'][]=array('fieldId'=>'email','message'=>_msg_invalid_data_email);
+        $response['info'][]=array('fieldId'=>'contact-user-email','message'=>_msg_invalid_data_email);
     }
 
   if(isEmpty($values['$message']))
     {
         $response['error']=1;
-        $response['info'][]=array('fieldId'=>'message','message'=>_msg_invalid_data_message);
+        $response['info'][]=array('fieldId'=>'contact-message','message'=>_msg_invalid_data_message);
     }
 
 
