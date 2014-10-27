@@ -74,6 +74,7 @@ p {
 #topBar {
 	text-align: center;
 	background-image: url("/images/header.png");
+	background-attachment: fixed;
 	margin-top: 0;
 }
 h3.event{
@@ -81,6 +82,7 @@ h3.event{
 }
 #governance_contact {
 	background-image: url("/images/governancebg.jpg");
+	background-attachment: fixed;
 	padding: 30px 0 30px 0;
 }
 #topBar img {
