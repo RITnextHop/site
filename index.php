@@ -74,7 +74,7 @@ if(window.mobilecheck()) {
 			<div class="fiftyFloat">
 				<h1 class="sectionHeader"><i class="fa fa-bullhorn"></i> Contact</h1>
 				<div class="padLeft">
-					<form class="contact" action="<?php echo htmlspecialcharacters($_SERVER["PHP_SELF"]);?>" method="post">
+					<form class="contact" method="post" action="<?php htmlspecialcharacters($_SERVER["PHP_SELF"]);?>" >
 						<input type="text" name="email" placeholder="Your Email Address"/><br>
 						<span class="error">* <?php echo $emailErr; ?> </span>
 						<input type="text" name="senderName" placeholder="Your Name"/><br>
