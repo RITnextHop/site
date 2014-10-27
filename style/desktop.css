@@ -1,4 +1,4 @@
-@media (min-width:800px) {
+@media (min-width:875px) {
 	.sectionInner {
 		margin: 0 auto;
 	}
@@ -21,10 +21,10 @@
 		margin-left: 5%;
 	}
 }
-@media (max-width:800px) {
+@media (max-width:875px) {
 	.sectionInner {
 		margin: 0 5px;
-		max-width: 800px;
+		max-width: 875px;
 	}
 	.padLeft {
 		margin: 0;
