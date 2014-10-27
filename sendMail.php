@@ -6,7 +6,7 @@
 
 // Validate Name
 if (empty($senderName)) {
-		$messageErr = "<div class='errors'>Name can not be empty.</div>";
+		$nameErr = "<div class='errors'>Name can not be empty.</div>";
 }else{
 		$valid_name = true;
 }
@@ -41,6 +41,9 @@ if ($valid_name && $valid_email && $valid_message) {
 		}
 
 		header( "Location: http://nh.brucedewald.com?status=$status" );
+}
+else {
+	?><html><body>test</body></html>
 }
 
 
