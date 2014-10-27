@@ -1,10 +1,6 @@
 <?php
 	include "configVars.php";
 	include "events.php";
-	$mailStatus = $_POST["status"];
-	if(status=='nameEmpty'){
-		?><script>alert("I am an alert box!");</script><?php
-	}
 ?>
 <!doctype HTML>
 <!--RIT Next Hop Club Site -->
@@ -79,6 +75,7 @@ if(window.mobilecheck()) {
 				<div class="padLeft">
 					<form class="contact" action="sendMail.php" method="post">
 						<input type="text" name="email" placeholder="Your Email Address"/><br>
+						<span class="error">* <?php echo $emailErr; ?> </span>
 						<input type="text" name="senderName" placeholder="Your Name"/><br>
 						<textarea name="message" rows="4" cols="50" placeholder="What's up?"></textarea><br>
 						<input type="submit" value="Send"/>

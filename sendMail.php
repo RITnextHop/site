@@ -6,23 +6,23 @@
 
 // Validate Name
 if (empty($senderName)) {
-		$status = "nameEmpty";
+		$nameErr = "Name is required";
 }else{
 		$valid_name = true;
 }
 
 // Validate email
 if (empty($email)) {
-    $status = "emailEmpty";
+    $emailErr = "Email is required";
 } else if (!(preg_match("/^[a-zA-Z0-9\-_]+(\.[a-zA-Z0-9\-_]+)*@[a-z0-9]+(\-[a-z0-9]+)*(\.[a-z0-9]+(\-[a-z0-9]+)*)*\.[a-z]{2,4}$/", $email))){
-    $status = "emailWrong";
+    $emailErr = "Valid email is required";
 } else {
     $valid_email = true;
 }
 
 // Validate message
 if (empty($message)) {
-    $status = "messageEmpty";
+    $messageErr = "Message is required";
 }else{
     $valid_message = true;
 }
