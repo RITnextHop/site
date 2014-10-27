@@ -73,7 +73,7 @@ if(window.mobilecheck()) {
 			<div class="fiftyFloat">
 				<h1 class="sectionHeader"><i class="fa fa-bullhorn"></i> Contact</h1>
 				<div class="padLeft">
-					<form class="contact" method="post" action="sendmail.php" >
+					<form class="contact" method="post" action="sendMail.php" >
 						<input type="text" name="email" placeholder="Your Email Address"/><br>
 						<input type="text" name="senderName" placeholder="Your Name"/><br>
 						<textarea name="message" rows="4" cols="50" placeholder="What's up?"></textarea><br>
