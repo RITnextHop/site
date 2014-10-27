@@ -3,7 +3,22 @@
 	$senderName = $_POST["senderName"];
 	$email = $_POST["email"];
 	$message = htmlspecialchars($_POST["message"]);
+function isEmpty($value)
+	{
+			return(!(bool)mb_strlen($value));
+	}
 
+function validateEmail($email)
+	{
+			if(!preg_match('/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/',$email,$result)) return(false);
+			else return(true);
+	}
+
+	function createResponse($response)
+	{
+			echo json_encode($response);
+			exit;
+	}
 
     $response=array('error'=>0,'info'=>null);
 
@@ -51,20 +66,5 @@
 		header( "Location: http://nh.brucedewald.com?status=$status" );
 	}
 
-	function isEmpty($value)
-    {
-        return(!(bool)mb_strlen($value));
-    }
 
-	function validateEmail($email)
-    {
-        if(!preg_match('/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/',$email,$result)) return(false);
-        else return(true);
-    }
-
-		function createResponse($response)
-    {
-        echo json_encode($response);
-        exit;
-    }
 ?>
