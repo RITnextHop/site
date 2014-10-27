@@ -6,27 +6,29 @@
 
 // Validate Name
 if (empty($senderName)) {
-		$nameErr = "<div class='errors'>Name can not be empty.</div>";
+		$status = "nameEmpty";
 }else{
 		$valid_name = true;
 }
 
 // Validate email
 if (empty($email)) {
-    $mailErr = "<div class='errors'>Email can not be empty.</div>";
+    $status = "emailEmpty";
 } else if (!(preg_match("/^[a-zA-Z0-9\-_]+(\.[a-zA-Z0-9\-_]+)*@[a-z0-9]+(\-[a-z0-9]+)*(\.[a-z0-9]+(\-[a-z0-9]+)*)*\.[a-z]{2,4}$/", $email))){
-    $mailErr = "<div class='errors'>Please input a valid email address.</div>";
+    $status = "emailWrong";
 } else {
     $valid_email = true;
 }
 
 // Validate message
 if (empty($message)) {
-    $messageErr = "<div class='errors'>Message can not be empty.</div>";
+    $status = "messageEmpty";
 }else{
     $valid_message = true;
 }
 
+
+// Send Message
 if ($valid_name && $valid_email && $valid_message) {
 		$sendMessage = "";
 		$sendMessage .= "Email from $senderName ($email)";
@@ -43,7 +45,7 @@ if ($valid_name && $valid_email && $valid_message) {
 		header( "Location: http://nh.brucedewald.com?status=$status" );
 }
 else {
-	?><html><body><?php $mailErr?></body></html><?php
+	header( "Location: http://nh.brucedewald.com?status=$status")
 }
 
 ?>
