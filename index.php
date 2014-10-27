@@ -1,7 +1,6 @@
 <?php
 	include "configVars.php";
 	include "events.php";
-	include "sendMail.php";
 ?>
 <!doctype HTML>
 <!--RIT Next Hop Club Site -->
@@ -74,9 +73,8 @@ if(window.mobilecheck()) {
 			<div class="fiftyFloat">
 				<h1 class="sectionHeader"><i class="fa fa-bullhorn"></i> Contact</h1>
 				<div class="padLeft">
-					<form class="contact" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" >
+					<form class="contact" method="post" action="sendmail.php" >
 						<input type="text" name="email" placeholder="Your Email Address"/><br>
-						<span class="error">* <?php echo $emailErr; ?> </span>
 						<input type="text" name="senderName" placeholder="Your Name"/><br>
 						<textarea name="message" rows="4" cols="50" placeholder="What's up?"></textarea><br>
 						<input type="submit" value="Send"/>
