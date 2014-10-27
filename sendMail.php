@@ -45,7 +45,7 @@ if ($valid_name && $valid_email && $valid_message) {
 		header( "Location: http://nh.brucedewald.com?status=$status" );
 }
 else {
-	header( "Location: http://nh.brucedewald.com?status=$status")
+	header( "Location: http://nh.brucedewald.com?status=$status");
 }
 
 ?>
