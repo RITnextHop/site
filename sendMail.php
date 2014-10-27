@@ -43,8 +43,7 @@ if ($valid_name && $valid_email && $valid_message) {
 		header( "Location: http://nh.brucedewald.com?status=$status" );
 }
 else {
-	<html><body>$mailErr</body></html>
+	?><html><body><?php $mailErr?></body></html><?php
 }
-
 
 ?>
