@@ -4,7 +4,7 @@
 	}
 
 	$testEvent = new Event();
-	$testEvent->location = 'Click Here';
+	$testEvent->location = '<a href="https://docs.google.com/a/g.rit.edu/forms/d/1ac207amRzanhQDW_I7fPPj8PI9RbS5oQIZRoqy71q_I/viewform">Click Here</a>';
 	$testEvent->date = 'Sign Up';
 	$testEvent->time = 'Now';
 	$testEvent->description = 'We don\'t have any events yet, but click above to sign up!';
