@@ -14,19 +14,19 @@
         'contact-message'       => $_POST['contact-message']
     );
 
-	if(isEmpty($values['$senderName']) || strcmp($values['senderName'],_def_data_name)==0)
+	if(isEmpty($values['$senderName']))
     {
         $response['error']=1;
         $response['info'][]=array('fieldId'=>'senderName','message'=>_msg_invalid_data_name);
     }
 
-  if(!validateEmail($values['$email']) || strcmp($values['email'],_def_data_email)==0)
+  if(!validateEmail($values['$email']))
     {
         $response['error']=1;
         $response['info'][]=array('fieldId'=>'email','message'=>_msg_invalid_data_email);
     }
 
-  if(isEmpty($values['$message']) || strcmp($values['message'],_def_data_message)==0)
+  if(isEmpty($values['$message']))
     {
         $response['error']=1;
         $response['info'][]=array('fieldId'=>'message','message'=>_msg_invalid_data_message);
