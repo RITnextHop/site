@@ -7,7 +7,9 @@
 	$testEvent->location = '<a href="https://docs.google.com/a/g.rit.edu/forms/d/1ac207amRzanhQDW_I7fPPj8PI9RbS5oQIZRoqy71q_I/viewform">Click Here</a>';
 	$testEvent->date = 'Sign Up';
 	$testEvent->time = 'Now';
-	$testEvent->description = 'We don\'t have any events yet, but click above to sign up!';
+	//You can use either single or double quotes in PHP. It can make life easier when you need to use contracted words. =)
+	//Just like Perl variables inside single quotes won't be interpreted, while those in double quotes will
+	$testEvent->description = "We don't have any events yet, but click above to sign up!";
 
 	/*$testEvent2 = new Event();
 	$testEvent2->location = 'Sys Lab';
