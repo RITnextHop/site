@@ -45,7 +45,7 @@ if(window.mobilecheck()) {
 			<?php foreach ($events as $event) {?>
 				<div class="event" >
 				<h3 class="event"><?php echo $event->date; ?></h3>
-				<h6><?php echo $event->time; ?></h6>
+				<h4 class="event"><?php echo $event->time; ?></h4>
 				<?php echo $event->location; ?>
 				<p><?php echo $event->description; ?></p>
 				</div>

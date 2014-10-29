@@ -80,6 +80,9 @@ p {
 h3.event{
 	margin-bottom: 0px;
 }
+h6.event{
+	margin: 0;
+}
 #governance_contact {
 	background-image: url("/images/governancebg.jpg");
 	background-attachment: fixed;
