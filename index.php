@@ -44,7 +44,8 @@ if(window.mobilecheck()) {
 			<div class="padLeft">
 			<?php foreach ($events as $event) {?>
 				<div class="event" >
-				<h3 class="event"><?php echo $event->date; ?>, <?php echo $event->time; ?></h3>
+				<h3 class="event"><?php echo $event->date; ?></h3>
+				<h6><?php echo $event->time; ?></h6>
 				<?php echo $event->location; ?>
 				<p><?php echo $event->description; ?></p>
 				</div>
