@@ -8,9 +8,9 @@
 	$MemberPush->date = 'Sign Up';
 	$MemberPush->time = 'Now';
 	$MemberPush->description = "Sign up to be a charter member of Next Hop!";
-	
+
 	$Nov6 = new Event();
-	$Nov6->location = "TBD";
+	$Nov6->location = "70-2400";
 	$Nov6->date = 'Thursday, November 6 2014';
 	$Nov6->time = '6:30 p.m.';
 	$Nov6->description = "Next Hop's first ever event! Please RSVP at <a href='http://goo.gl/forms/KRd4Ekq93r'>this link</a>";
