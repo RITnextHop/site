@@ -9,13 +9,13 @@
 	$MemberPush->time = 'Now';
 	$MemberPush->description = "Sign up to be a charter member of Next Hop!";
 
-	$Nov6 = new Event();
-	$Nov6->location = "70-2400";
-	$Nov6->date = 'Thursday, November 6 2014';
-	$Nov6->time = '6:30 p.m.';
-	$Nov6->description = "Next Hop's first ever event! Please RSVP at <a href='http://goo.gl/forms/KRd4Ekq93r'>this link</a>";
+	$Nov13 = new Event();
+	$Nov13->location = "Networking Lab, 70-2160";
+	$Nov13->date = 'Thursday, November 13 2014';
+	$Nov13->time = '7:00 P.M. - 9:00 P.M.';
+	$Nov13-->description = "The first ever, Built It Night&8482;! Please RSVP at <a href='http://goo.gl/forms/ftpcFlvXhT'>this link</a>";
 
-	$events = array($Nov6,$MemberPush);
+	$events = array($Nov13,$MemberPush);
 
 
 ?>
