@@ -1,6 +1,6 @@
 <?php
 	class Event {
-		public $location,$date,$time,$description;
+		public $location,$date,$time,$description = NULL;
 	}
 
 	$MemberPush = new Event();
