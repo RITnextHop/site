@@ -11,7 +11,7 @@
 
 	$Nov13 = new Event();
 	$Nov13->location = "Networking Lab, 70-2160";
-	$Nov13->date = 'Thursday, November 13 2014';
+	$Nov13->date = 'Thursday, November 20 2014';
 	$Nov13->time = '7:00 P.M. - 9:00 P.M.';
 	$Nov13->description = "The first ever, Built It Night&trade;! Please RSVP at <a href='http://goo.gl/forms/ftpcFlvXhT'>this link</a>";
 
