@@ -4,16 +4,16 @@
 	}
 
 	$MemberPush = new Event();
-	$MemberPush->location = '<a href="https://docs.google.com/a/g.rit.edu/forms/d/1ac207amRzanhQDW_I7fPPj8PI9RbS5oQIZRoqy71q_I/viewform">Click Here</a>';
-	$MemberPush->date = 'Sign Up';
+	$MemberPush->location = '<a href="http://brucedewald.us9.list-manage.com/track/click?u=664305636969dd43eedd99cf7&id=2c65445391&e=0474acbfe8">Click Here</a>';
+	$MemberPush->date = 'Join our mailing list!';
 	$MemberPush->time = 'Now';
 	$MemberPush->description = "Sign up to be a charter member of Next Hop!";
 
-	$Nov13 = new Event();
-	$Nov13->location = "Networking Lab, 70-2160";
-	$Nov13->date = 'Thursday, November 20 2014';
-	$Nov13->time = '7:00 P.M. - 9:00 P.M.';
-	$Nov13->description = "The first ever, Built It Night&trade;! Please RSVP at <a href='http://goo.gl/forms/ftpcFlvXhT'>this link</a>";
+	$Feb26 = new Event();
+	$Feb26->location = "Golisano, 70-2400";
+	$Feb26->date = 'Thursday, February 26 2015';
+	$Feb26->time = '7:00 P.M. - 9:00 P.M.';
+	$Feb26->description = "Come learn about cool things like SDN, Ansible, and Scapy! Please RSVP at <a href='http://goo.gl/forms/BT2s5pkPMa'>this link</a>";
 
 	$events = array($Nov13,$MemberPush);
 
