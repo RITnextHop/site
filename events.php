@@ -15,7 +15,7 @@
 	$Feb26->time = '7:00 P.M. - 9:00 P.M.';
 	$Feb26->description = "Come learn about cool things like SDN, Ansible, and Scapy! Please RSVP at <a href='http://goo.gl/forms/BT2s5pkPMa'>this link</a>";
 
-	$events = array($Nov13,$MemberPush);
+	$events = array($Feb26,$MemberPush);
 
 
 ?>
