@@ -26,7 +26,9 @@ if(window.mobilecheck()) {
 	<div class="section" id="topBar">
 		<div class="sectionInner">
 			<!--<img style="margin:0 auto;" src="http://placehold.it/600x300&text=NextHop" />-->
-			<div style="background-color:white;border-radius:9999px;margin: 20px 0;"><img style="margin: 0 auto;overflow:auto;" src="/images/transparent_logo.png"></div>
+			<div style="background-color:white;border-radius:9999px;margin: 20px 0;">
+				<img style="margin: 0 auto;overflow:auto;width:600px;" src "/images/transparent_logo.png">
+			</div>
 			<span id="nextHop">NextHop</span>
 		</div>
 	</div>
