@@ -56,7 +56,7 @@ p {
 	padding-left: 3px;
 	width: 80%;
 }
-.contact textarea {
+.contact text {
 	resize: none;
 	margin: 10px 0 10px 0;
 	font-family: 'Noto Sans', sans-serif;
