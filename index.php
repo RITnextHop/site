@@ -75,7 +75,7 @@ if(window.mobilecheck()) {
 				</div>
 
 			<div class="fiftyFloat">
-				<h1 class="sectionHeader"><i class="fa fa-bullhorn"></i>Join our Mailing List</h1>
+				<h1 class="sectionHeader"><i class="fa fa-bullhorn"></i> Mailing List Signup</h1>
 				<div class="padLeft">
 											<!-- Begin MailChimp Signup Form -->
 						<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
@@ -105,7 +105,7 @@ if(window.mobilecheck()) {
 								<div class="response" id="mce-success-response" style="display:none"></div>
 							</div>
 								<div style="position: absolute; left: -5000px;"><input type="text" name="b_664305636969dd43eedd99cf7_8d33440d0b" tabindex="-1" value=""></div>
-								<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+								<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="subscribeButton" class="button"></div>
 								</div>
 						</form>
 						</div>
