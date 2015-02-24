@@ -10,7 +10,7 @@
 <link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 <link href="style/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <meta name="viewport" content="initial-scale=1">
-<title>NextHop</title>
+<title>NextHop Live Stream</title>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -33,5 +33,21 @@ if(window.mobilecheck()) {
 </script>
 </head>
 <body>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/nz7dZxDHuUk" frameborder="0" allowfullscreen></iframe>
+	<div class="section" id="topBar">
+		<div class="sectionInner">
+			<!--<img style="margin:0 auto;" src="http://placehold.it/600x300&text=NextHop" />-->
+			<div style="background-color:white;border-radius:9999px;margin: 20px 0;">
+				<img style="margin: 0 auto;overflow:auto;width:600px;" src="/images/transparent_logo.png">
+			</div>
+			<span id="nextHop">NextHop</span>
+		</div>
+	</div>
+	<div class="section" id="video">
+		<div class="sectionInner text">
+			<h1 class="sectionHeader"><i class="fa fa-video-camera"></i> Live Stream</h1>
+			<div class="center">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/nz7dZxDHuUk" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
 </body>
