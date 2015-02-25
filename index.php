@@ -39,7 +39,7 @@ if(window.mobilecheck()) {
 		<div class="sectionInner">
 			<!--<img style="margin:0 auto;" src="http://placehold.it/600x300&text=NextHop" />-->
 			<div style="background-color:white;border-radius:9999px;margin: 20px 0;">
-				<a href="/"><img style="margin: 0 auto;overflow:auto;width:600px;" src="/images/transparent_logo.png"></a>
+				<a href="/"><img style="margin: 0 auto;overflow:auto;width:600px;" src="/images/NextHopLogo.png"></a>
 			</div>
 			<span id="nextHop">NextHop</span>
 		</div>
