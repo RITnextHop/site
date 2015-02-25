@@ -47,7 +47,7 @@ if(window.mobilecheck()) {
 		<div class="sectionInner text">
 			<h1 class="sectionHeader"><i class="fa fa-video-camera"></i> Live Stream</h1>
 			<div class="video">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/nz7dZxDHuUk" frameborder="0" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/nz7dZxDHuUk?autoplay=1" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>
 	</div>
@@ -59,19 +59,19 @@ if(window.mobilecheck()) {
 				<ul>
 					<li>
 						7:00-8:00: Prof. Bruce Hartpence, Software Defined Networking <br />
-						View slide sets <a href="http://nexthop.network/slides/" target="_blank">here</a>.
+						&nbsp;View slide sets <a href="http://nexthop.network/slides/" target="_blank">here</a>.
 					</li>
 					<li>
 						8:00-8:20: Geoff Webster, Ansible Continuous Deployment <br />
-						View slide sets <a href="http://nexthop.network/slides/" target="_blank">here</a>.
+						&nbsp;View slide sets <a href="http://nexthop.network/slides/" target="_blank">here</a>.
 					</li>
 					<li>
 						8:20-8:40: Sean McConnell, Crafting Packets with Scapy <br />
-						View slide sets <a href="http://nexthop.network/slides/" target="_blank">here</a>.
+						&nbsp;View slide sets <a href="http://nexthop.network/slides/" target="_blank">here</a>.
 					</li>
 					<li>
 						8:40-9:00: Nathan Lichtenstein, Linux File Permissions <br />
-						View slide sets <a href="http://nexthop.network/slides/" target="_blank">here</a>.
+						&nbsp;View slide sets <a href="http://nexthop.network/slides/" target="_blank">here</a>.
 					</li>
 				</ul>
 			</div>
