@@ -22,9 +22,7 @@ p {
 	text-align: justify;
 }
 .section {
-	padding: 200px;
 	padding: 0;
-	margin: 30px 0;
 }
 .padLeft {
 	margin-left: 40px;
@@ -99,7 +97,7 @@ h4.event{
 
 #menubar {
 	margin: 0 auto;
-	width: 200px;
+	width: 250px;
 	color: white;
 }
 
@@ -153,5 +151,6 @@ white-space: nowrap;
 }
 
 .menubarlink {
-	padding-left: 10px;
+	padding-left: 15px;
+	font-size: 1.1em;
 }

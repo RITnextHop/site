@@ -46,10 +46,8 @@ if(window.mobilecheck()) {
 	</div>
 	<div class="section" id="menubarouter">
 		<div id="menubar">
-			<p>
-				<a href="/" class="menubarlink" id="homenav"><i class="fa fa-home" ></i> Home</a>
-				<a href="/live" class="menubarlink" id="livenav"><i class="fa fa-video-camera"></i> Live Stream</a>
-			</p>
+			<a href="/" class="menubarlink" id="homenav"><i class="fa fa-home" ></i> Home</a>
+			<a href="/live" class="menubarlink" id="livenav"><i class="fa fa-video-camera"></i> Live Stream</a>
 		</div>
 	</div>
 	<div class="section" id="about">
