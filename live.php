@@ -7,6 +7,8 @@
 <head>
 <link rel="stylesheet" id="base" type="text/css" href="style/base.css">
 <link rel="stylesheet" id="medium" type="text/css" href="style/desktop.css">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 <link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 <link href="style/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <meta name="viewport" content="initial-scale=1">
@@ -42,38 +44,42 @@ if(window.mobilecheck()) {
 			<span id="nextHop">NextHop</span>
 		</div>
 	</div>
-
-	<div class="section" id="videoSection">
-		<div class="sectionInner text">
-			<h1 class="sectionHeader"><i class="fa fa-video-camera"></i> Live Stream</h1>
-			<div class="video">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/nz7dZxDHuUk?autoplay=1" frameborder="0" allowfullscreen></iframe>
+	<div id="sectionFrame">
+			<div class="fiftyFloat">
+			<div class="section" id="videoSection">
+				<div class="sectionInner text">
+					<h1 class="sectionHeader"><i class="fa fa-video-camera"></i> Live Stream</h1>
+					<div class="video">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/nz7dZxDHuUk?autoplay=1" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
 			</div>
 		</div>
-	</div>
-
-	<div class="section" id="agenda">
-		<div class="sectionInner text">
-			<h1 class="sectionHeader"><i class="fa fa-calendar"></i> Agenda</h1>
-			<div class="padLeft">
-				<ul>
-					<li>
-						7:00-8:00: Prof. Bruce Hartpence, Software Defined Networking <br />
-						&nbsp;View slide sets <a href="http://nexthop.network/slides/" target="_blank">here</a>.
-					</li>
-					<li>
-						8:00-8:20: Geoff Webster, Ansible Continuous Deployment <br />
-						&nbsp;View slide sets <a href="http://nexthop.network/slides/" target="_blank">here</a>.
-					</li>
-					<li>
-						8:20-8:40: Sean McConnell, Crafting Packets with Scapy <br />
-						&nbsp;View slide sets <a href="http://nexthop.network/slides/" target="_blank">here</a>.
-					</li>
-					<li>
-						8:40-9:00: Nathan Lichtenstein, Linux File Permissions <br />
-						&nbsp;View slide sets <a href="http://nexthop.network/slides/" target="_blank">here</a>.
-					</li>
-				</ul>
+		<div class="fiftyFloat">
+			<div class="section" id="agenda">
+				<div class="sectionInner text">
+					<h1 class="sectionHeader"><i class="fa fa-calendar"></i> Agenda</h1>
+					<div class="padLeft">
+						<ul>
+							<li>
+								7:00-8:00: Prof. Bruce Hartpence, Software Defined Networking <br />
+								&nbsp;View slide sets <a href="http://nexthop.network/slides/" target="_blank">here</a>.
+							</li>
+							<li>
+								8:00-8:20: Geoff Webster, Ansible Continuous Deployment <br />
+								&nbsp;View slide sets <a href="http://nexthop.network/slides/" target="_blank">here</a>.
+							</li>
+							<li>
+								8:20-8:40: Sean McConnell, Crafting Packets with Scapy <br />
+								&nbsp;View slide sets <a href="http://nexthop.network/slides/" target="_blank">here</a>.
+							</li>
+							<li>
+								8:40-9:00: Nathan Lichtenstein, Linux File Permissions <br />
+								&nbsp;View slide sets <a href="http://nexthop.network/slides/" target="_blank">here</a>.
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
