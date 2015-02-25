@@ -44,11 +44,13 @@ if(window.mobilecheck()) {
 			<span id="nextHop">NextHop</span>
 		</div>
 	</div>
-	<div class="section" id="menubar">
-		<p>
-			<a href="/" class="menubarlink" id="homenav"><i class="fa fa-home" ></i> Home</a>
-			<a href="/live" class="menubarlink" id="livenav"><i class="fa fa-video-camera"></i> Live Stream</a>
-		</p>
+	<div class="section" id="menubarouter">
+		<div id="menubar">
+			<p>
+				<a href="/" class="menubarlink" id="homenav"><i class="fa fa-home" ></i> Home</a>
+				<a href="/live" class="menubarlink" id="livenav"><i class="fa fa-video-camera"></i> Live Stream</a>
+			</p>
+		</div>
 	</div>
 	<div class="section" id="about">
 		<div class="sectionInner text">

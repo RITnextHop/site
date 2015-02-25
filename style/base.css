@@ -100,8 +100,19 @@ h4.event{
 #menubar {
 	margin: 0 auto;
 	width: 200px;
-	background-color: #405468;
 	color: white;
+}
+
+#menubarouter {
+	background-color: #405468;
+}
+
+#menubar a:visited {
+	color: white;
+}
+
+#menubar a:hover {
+	color: #F58522;
 }
 #nextHop {
 	font-size: 80px;
