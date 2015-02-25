@@ -42,11 +42,38 @@ if(window.mobilecheck()) {
 			<span id="nextHop">NextHop</span>
 		</div>
 	</div>
-	<div class="section" id="video">
+
+	<div class="section" id="videoSection">
 		<div class="sectionInner text">
 			<h1 class="sectionHeader"><i class="fa fa-video-camera"></i> Live Stream</h1>
-			<div class="center">
+			<div class="video">
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/nz7dZxDHuUk" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+
+	<div class="section" id="agenda">
+		<div class="sectionInner text">
+			<h1 class="sectionHeader"><i class="fa fa-calendar"></i> Agenda</h1>
+			<div class="padLeft">
+				<ul>
+					<li>
+						7:00-8:00: Prof. Bruce Hartpence, Software Defined Networking <br />
+						View slide sets <a href="http://nexthop.network/slides/" target="_blank">here</a>.
+					</li>
+					<li>
+						8:00-8:20: Geoff Webster, Ansible Continuous Deployment
+						View slide sets <a href="http://nexthop.network/slides/" target="_blank">here</a>.
+					</li>
+					<li>
+						8:20-8:40: Sean McConnell, Crafting Packets with Scapy
+						View slide sets <a href="http://nexthop.network/slides/" target="_blank">here</a>.
+					</li>
+					<li>
+						8:40-9:00: Nathan Lichtenstein, Linux File Permissions
+						View slide sets <a href="http://nexthop.network/slides/" target="_blank">here</a>.
+					</li>
+				</ul>
 			</div>
 		</div>
 	</div>
