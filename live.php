@@ -62,15 +62,15 @@ if(window.mobilecheck()) {
 						View slide sets <a href="http://nexthop.network/slides/" target="_blank">here</a>.
 					</li>
 					<li>
-						8:00-8:20: Geoff Webster, Ansible Continuous Deployment
+						8:00-8:20: Geoff Webster, Ansible Continuous Deployment <br />
 						View slide sets <a href="http://nexthop.network/slides/" target="_blank">here</a>.
 					</li>
 					<li>
-						8:20-8:40: Sean McConnell, Crafting Packets with Scapy
+						8:20-8:40: Sean McConnell, Crafting Packets with Scapy <br />
 						View slide sets <a href="http://nexthop.network/slides/" target="_blank">here</a>.
 					</li>
 					<li>
-						8:40-9:00: Nathan Lichtenstein, Linux File Permissions
+						8:40-9:00: Nathan Lichtenstein, Linux File Permissions <br />
 						View slide sets <a href="http://nexthop.network/slides/" target="_blank">here</a>.
 					</li>
 				</ul>
