@@ -103,6 +103,13 @@ h4.event{
 	margin: 30px 0 30px 0;
 }
 
+#sectionFrame {
+	max-width: 1300px;
+	overflow: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #subscribeButton {
 	clear: both;
 background-color: #bbb;

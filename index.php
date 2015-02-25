@@ -7,6 +7,8 @@
 <head>
 <link rel="stylesheet" id="base" type="text/css" href="style/base.css">
 <link rel="stylesheet" id="medium" type="text/css" href="style/desktop.css">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 <link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 <link href="style/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <meta name="viewport" content="initial-scale=1">
