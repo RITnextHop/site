@@ -98,9 +98,10 @@ h4.event{
 }
 
 #menubar {
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
+	margin: 0 auto;
+	width: 200px;
+	background-color: #405468;
+	color: white;
 }
 #nextHop {
 	font-size: 80px;
@@ -138,4 +139,8 @@ white-space: nowrap;
 
 #subscribeButton:hover {
 	background-color: #aaa;
+}
+
+.menubarlink {
+	padding-left: 10px;
 }
