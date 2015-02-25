@@ -96,6 +96,12 @@ h4.event{
 #topBar img {
 	padding: 40px 0;
 }
+
+#menubar {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
 #nextHop {
 	font-size: 80px;
 	font-weight: bolder;
