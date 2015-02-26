@@ -7,9 +7,11 @@
   </div>
 </div>
 <div id="menubarouter">
-  <div id="menubar">
-    <a href="/" class="menubarlink" id="homenav"><i class="fa fa-home" ></i> Home</a>
-    <a href="/live" class="menubarlink" id="livenav"><i class="fa fa-video-camera"></i> Live Stream</a>
-    <a href="/events" class="menubarlink" id="eventsnav"><i class="fa fa-calendar"></i> Events</a>
+  <div class="sectionInner">
+    <ul class="navigation">
+      <li><a href="/" class="menubarlink" id="homenav"><i class="fa fa-home" ></i> Home</a></li>
+      <li><a href="/live" class="menubarlink" id="livenav"><i class="fa fa-video-camera"></i> Live Stream</a></li>
+      <li><a href="/events" class="menubarlink" id="eventsnav"><i class="fa fa-calendar"></i> Events</a></li>
+    </ul>
   </div>
 </div>
