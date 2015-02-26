@@ -34,7 +34,7 @@ if(window.mobilecheck()) {
 }
 </script>
 </head>
-<body>
+<body id="live">
 	<div class="section" id="topBar">
 		<div class="sectionInner">
 			<!--<img style="margin:0 auto;" src="http://placehold.it/600x300&text=NextHop" />-->
