@@ -68,7 +68,7 @@ ul.navigation {
 
 ul.navigation li {
 	display: inline;
-	padding: 10px 0px;
+	padding: 0 15px;
 }
 
 ul.navigation li:first {
