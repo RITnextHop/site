@@ -53,7 +53,9 @@
   		</div>
     </div>
     <div class="section" id="events-past">
-
+      <div class="sectionInner text">
+  			<h1 class="sectionHeader"><i class="fa fa-history"></i> Past Events</h1>
+      </div>
     </div>
   </body>
 </html>
