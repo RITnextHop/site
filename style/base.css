@@ -68,6 +68,15 @@ ul.navigation {
 
 ul.navigation li {
 	display: inline;
+	padding: 0px 8px;
+}
+
+ul.navigation li:first {
+	padding-left: none;
+}
+
+ul.navigation li:last {
+	padding-right: none;
 }
 
 .navigation a:visited {
