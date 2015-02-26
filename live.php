@@ -72,10 +72,6 @@ if(window.mobilecheck()) {
 			</div>
 		</div>
 	</div>
-	<div class="section" id="footer">
-		<div class="sectionInner">
-			&copy; 2015 NextHop
-		</div>
-	</div>
+	<?php include("config/footer.php"); ?>
 </body>
 </html>

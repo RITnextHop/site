@@ -69,5 +69,6 @@
   			</div>
       </div>
     </div>
+    <?php include("config/footer.php"); ?>
   </body>
 </html>
