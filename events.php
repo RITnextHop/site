@@ -13,7 +13,7 @@
     <link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href="style/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <meta name="viewport" content="initial-scale=1">
-    <title>NextHop Live Stream</title>
+    <title>NextHop Events</title>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -43,10 +43,11 @@
   			<div class="padLeft">
   			<?php foreach ($events as $event) {?>
   				<div class="event" >
-  				<h3 class="event"><?php echo $event->date; ?></h3>
-  				<h4 class="event"><?php echo $event->time; ?></h4>
-  				<?php echo $event->location; ?>
-  				<p><?php echo $event->description; ?></p>
+            <h3 class="event"><?php echo $event->title; ?></h3>
+    				<h3 class="event"><?php echo $event->date; ?></h3>
+    				<h4 class="event"><?php echo $event->time; ?></h4>
+    				<?php echo $event->location; ?>
+    				<p><?php echo $event->description; ?></p>
   				</div>
   			<?php } ?>
   			</div>
@@ -55,6 +56,17 @@
     <div class="section" id="events-past">
       <div class="sectionInner text">
   			<h1 class="sectionHeader"><i class="fa fa-history"></i> Past Events</h1>
+        <div class="padLeft">
+  			<?php foreach ($pastevents as $event) {?>
+  				<div class="event" >
+            <h3 class="event"><?php echo $event->title; ?></h3>
+    				<h3 class="event"><?php echo $event->date; ?></h3>
+    				<h4 class="event"><?php echo $event->time; ?></h4>
+    				<?php echo $event->location; ?>
+    				<p><?php echo $event->description; ?></p>
+  				</div>
+  			<?php } ?>
+  			</div>
       </div>
     </div>
   </body>
