@@ -59,14 +59,14 @@ p {
 	width:80%;
 }
 
-.navigation ul {
+ul.navigation {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
 	text-align: center;
 }
 
-.navigation ul li {
+ul.navigation li {
 	display: inline;
 }
 
