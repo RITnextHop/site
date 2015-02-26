@@ -1,5 +1,4 @@
 <?php
-	date.timezone = America/New_York;
 	class Event {
 		public $title,$location,$date,$time,$description;
 	}
