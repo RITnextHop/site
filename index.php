@@ -1,6 +1,6 @@
 <?php
-	include "configVars.php";
-	include "events.php";
+	include "config/configVars.php";
+	include "config/events.php";
 ?>
 <!doctype HTML>
 <!--RIT NextHop Club Site -->
@@ -37,7 +37,6 @@ if(window.mobilecheck()) {
 <body id="home">
 	<div class="section" id="topBar">
 		<div class="sectionInner">
-			<!--<img style="margin:0 auto;" src="http://placehold.it/600x300&text=NextHop" />-->
 			<div style="background-color:white;border-radius:9999px;margin: 20px 0;">
 				<a href="/"><img style="margin: 0 auto;overflow:auto;width:550px;" src="/images/NextHopLogo.png"></a>
 			</div>
@@ -48,6 +47,7 @@ if(window.mobilecheck()) {
 		<div id="menubar">
 			<a href="/" class="menubarlink" id="homenav"><i class="fa fa-home" ></i> Home</a>
 			<a href="/live" class="menubarlink" id="livenav"><i class="fa fa-video-camera"></i> Live Stream</a>
+			<a href="/events" class="menubarlink" id="eventsnav"><i class="fa fa-calendar"></i> Events</a>
 		</div>
 	</div>
 	<div class="section" id="about">
@@ -56,21 +56,6 @@ if(window.mobilecheck()) {
 			<div class="padLeft">
 				<p>NextHop is an organization at the Rochester Institute of Technology geared towards students interested in the fields of networking and systems administration. The name NextHop comes from a networking term that describes the next router along a path to a given destination. The club serves two core functions: community building and knowledge development.
 				<p>The community building aspect of NextHop is geared towards bringing students together from multiple disciplines who share a core common interest set. Knowledge development is focused on building core and advanced level skills through a variety of workshops and presentations with topics ranging from basic skills to emerging technologies. Knowledge development spans both academic and professional knowledge spheres. </p>
-			</div>
-		</div>
-	</div>
-	<div class="section" id="events">
-		<div class="sectionInner text">
-			<h1 class="sectionHeader"><i class="fa fa-calendar"></i> Events</h1>
-			<div class="padLeft">
-			<?php foreach ($events as $event) {?>
-				<div class="event" >
-				<h3 class="event"><?php echo $event->date; ?></h3>
-				<h4 class="event"><?php echo $event->time; ?></h4>
-				<?php echo $event->location; ?>
-				<p><?php echo $event->description; ?></p>
-				</div>
-			<?php } ?>
 			</div>
 		</div>
 	</div>

@@ -1,7 +1,3 @@
-<?php
-	include "configVars.php";
-	include "events.php";
-?>
 <!doctype HTML>
 <!--RIT NextHop Club Site -->
 <head>
@@ -37,7 +33,6 @@ if(window.mobilecheck()) {
 <body id="live">
 	<div class="section" id="topBar">
 		<div class="sectionInner">
-			<!--<img style="margin:0 auto;" src="http://placehold.it/600x300&text=NextHop" />-->
 			<div style="background-color:white;border-radius:9999px;margin: 20px 0;">
 				<a href="/"><img style="margin: 0 auto;overflow:auto;width:550px;" src="/images/NextHopLogo.png"></a>
 			</div>
@@ -48,6 +43,7 @@ if(window.mobilecheck()) {
 		<div id="menubar">
 			<a href="/" class="menubarlink" id="homenav"><i class="fa fa-home" ></i> Home</a>
 			<a href="/live" class="menubarlink" id="livenav"><i class="fa fa-video-camera"></i> Live Stream</a>
+			<a href="/events" class="menubarlink" id="eventsnav"><i class="fa fa-calendar"></i> Events</a>
 		</div>
 	</div>
 	<div id="sectionFrame">
@@ -66,6 +62,7 @@ if(window.mobilecheck()) {
 				<div class="sectionInner text">
 					<h1 class="sectionHeader"><i class="fa fa-calendar"></i> Agenda</h1>
 					<div class="padLeft">
+						Slides will be availble at the time of presentation.
 						<ul>
 							<li>
 								7:00-8:00: Prof. Bruce Hartpence, Software Defined Networking <br />
