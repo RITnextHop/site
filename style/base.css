@@ -71,14 +71,6 @@ ul.navigation li {
 	padding: 0 15px;
 }
 
-ul.navigation li:first {
-	padding-left: none;
-}
-
-ul.navigation li:last {
-	padding-right: none;
-}
-
 .navigation a:visited {
 	color: white;
 }
@@ -151,24 +143,6 @@ ul.navigation li:last {
 	background-image: url("/images/governancebg.jpg");
 	background-attachment: fixed;
 	padding: 30px 0 30px 0;
-}
-
-#menubar {
-	margin: 0 auto;
-	width: 400px;
-	color: white;
-}
-
-#menubar a:visited {
-	color: white;
-}
-
-#menubar a:link {
-	color: white;
-}
-
-#menubar a:hover {
-	color: #DFDFDF;
 }
 
 #menubarouter {
