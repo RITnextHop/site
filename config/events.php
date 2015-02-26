@@ -1,4 +1,5 @@
 <?php
+	date.timezone = America/New_York;
 	class Event {
 		public $title,$location,$date,$time,$description;
 	}
@@ -19,7 +20,7 @@
 
 
 	$Nov_06_2014 = new Event();
-	$Nov_06_2014->title = "First Meeting"
+	$Nov_06_2014->title = "First Meeting";
 	$Nov_06_2014->location = 'Golisano, 70-2400';
 	$Nov_06_2014->date = 'Thursday, November 6, 2014';
 	$Nov_06_2014->time = '6:30 P.M. - 7:30 P.M.';
