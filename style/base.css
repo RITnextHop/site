@@ -59,12 +59,35 @@ p {
 	width:80%;
 }
 
+.navigation ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+.navigation ul li {
+	display: inline;
+}
+
+.navigation a:visited {
+	color: white;
+}
+
+.navigation a:link {
+	color: white;
+}
+
+.navigation a:hover {
+	color: #DFDFDF;
+}
+
 .major {
 	margin-left: 15px;
 }
 
 .menubarlink {
-	padding-left: 15px;
+	/*padding-left: 15px;*/
 	font-size: 1.1em;
 }
 
