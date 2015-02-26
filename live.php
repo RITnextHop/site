@@ -69,19 +69,19 @@ if(window.mobilecheck()) {
 						<ul>
 							<li>
 								7:00-8:00: Prof. Bruce Hartpence, Software Defined Networking <br />
-								&nbsp;View slide sets <a href="http://nexthop.network/slides/" target="_blank">here</a>.
+								&nbsp;View slide sets <a href="http://nexthop.network/slides/022615/Hartpence-SDN.pdf" target="_blank">here</a>.
 							</li>
 							<li>
 								8:00-8:20: Geoff Webster, Ansible Continuous Deployment <br />
-								&nbsp;View slide sets <a href="http://nexthop.network/slides/" target="_blank">here</a>.
+								&nbsp;View slide sets <a href="http://nexthop.network/slides/022615/Webster-Ansible.pdf" target="_blank">here</a>.
 							</li>
 							<li>
 								8:20-8:40: Sean McConnell, Crafting Packets with Scapy <br />
-								&nbsp;View slide sets <a href="http://nexthop.network/slides/" target="_blank">here</a>.
+								&nbsp;View slide sets <a href="http://nexthop.network/slides/022615/McConnell-Scapy.pdf" target="_blank">here</a>.
 							</li>
 							<li>
 								8:40-9:00: Nathan Lichtenstein, Linux File Permissions <br />
-								&nbsp;View slide sets <a href="http://nexthop.network/slides/" target="_blank">here</a>.
+								&nbsp;View slide sets <a href="http://nexthop.network/slides/022615/Lichtenstein-Linux.pdf" target="_blank">here</a>.
 							</li>
 						</ul>
 					</div>
