@@ -1,3 +1,7 @@
+<?php
+	include "config/configVars.php";
+	include "config/events.php";
+?>
 <!doctype HTML>
 <!--RIT NextHop Club Site -->
 <html>
