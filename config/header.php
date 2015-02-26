@@ -6,12 +6,12 @@
     <span id="nextHop">NextHop</span>
   </div>
 </div>
-<div id="menubarouter">
+<div id="navigationOuter">
   <div class="sectionInner">
     <ul class="navigation">
-      <li><a href="/" class="menubarlink" id="homenav"><i class="fa fa-home" ></i> Home</a></li>
-      <li><a href="/live" class="menubarlink" id="livenav"><i class="fa fa-video-camera"></i> Live Stream</a></li>
-      <li><a href="/events" class="menubarlink" id="eventsnav"><i class="fa fa-calendar"></i> Events</a></li>
+      <li><a href="/" class="navigationLink" id="homenav"><i class="fa fa-home" ></i> Home</a></li>
+      <li><a href="/live" class="navigationLink" id="livenav"><i class="fa fa-video-camera"></i> Live Stream</a></li>
+      <li><a href="/events" class="navigationLink" id="eventsnav"><i class="fa fa-calendar"></i> Events</a></li>
     </ul>
   </div>
 </div>

@@ -83,13 +83,13 @@ ul.navigation li {
 	color: #DFDFDF;
 }
 
-.major {
-	margin-left: 15px;
-}
-
-.menubarlink {
+.navigationLink {
 	/*padding-left: 15px;*/
 	font-size: 1.1em;
+}
+
+.major {
+	margin-left: 15px;
 }
 
 .padLeft {
@@ -145,7 +145,7 @@ ul.navigation li {
 	padding: 30px 0 30px 0;
 }
 
-#menubarouter {
+#navigationOuter {
 	background-color: #405468;
 }
 
