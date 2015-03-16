@@ -41,7 +41,7 @@
       <div class="sectionInner text">
   			<h1 class="sectionHeader"><i class="fa fa-calendar"></i> Upcoming Events</h1>
   			<div class="padLeft">
-  		<!--	<?php foreach ($events as $event) {?>
+  			<?php foreach ($events as $event) {?>
   				<div class="event" >
             <h3 class="event"><?php echo $event->title; ?></h3>
     				<h3 class="event"><?php echo $event->date; ?></h3>
@@ -49,9 +49,7 @@
     				<?php echo $event->location; ?>
     				<p><?php echo $event->description; ?></p>
   				</div>
-  			<?php } ?> -- >
-
-				No upcoming events.
+  			<?php } ?>
   			</div>
   		</div>
     </div>
