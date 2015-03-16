@@ -2,6 +2,12 @@
 	class Event {
 		public $title,$location,$date,$time,$description;
 	}
+	$No_Events = new Event();
+	$No_Events->title = 'There are currently no scheduled events';
+	$No_Events->location = '';
+	$No_Events->date = '';
+	$No_Events->time = '';
+	$No_Events->description = 'Please check back soon.';
 
 	$Mar_12_2015 = new Event();
 	$Mar_12_2015->title = 'DHCP/DNS Build-It-Night';
@@ -32,7 +38,7 @@
 	$Nov_06_2014->time = '6:30 P.M. - 7:30 P.M.';
 	$Nov_06_2014->description = 'Initial NextHop Meeting!';
 
-	$events = array();
+	$events = array($No_Events);
 	$pastevents = array($Mar_12_2015,$Feb_26_2015,$Nov_20_2014,$Nov_06_2014)
 
 ?>
