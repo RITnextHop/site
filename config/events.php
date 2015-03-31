@@ -9,6 +9,20 @@
 	$No_Events->time = '';
 	$No_Events->description = 'Please check back soon.';
 
+	$Apr_16_2015 = new Event();
+	$Apr_16_2015->title = 'Tech Talks';
+	$Apr_16_2015->location = 'TBD';
+	$Apr_16_2015->date = 'Thursday, April 16, 2015';
+	$Apr_16_2015->time = '7:00 P.M. - 9:00 P.M.';
+	$Apr_16_2015->description = 'Come learn about cool things! SysAdmins from Wegmans are coming!';
+
+	$Apr_2_2015 = new Event();
+	$Apr_2_2015->title = 'Build-It-Night: The Lamp Stack';
+	$Apr_2_2015->location = 'Golisano, 70-2320';
+	$Apr_2_2015->date = 'Thursday, April 2, 2015';
+	$Apr_2_2015->time = '7:00 P.M. - 9:00 P.M.';
+	$Apr_2_2015->description = 'Join us to get down and dirty with the LAMP (Linux, Apache, MySQL, PHP) stack. Learn how to setup the infrastructure needed to support a dynamic website or web application. Learners of all skill levels are welcome.';
+
 	$Mar_12_2015 = new Event();
 	$Mar_12_2015->title = 'DHCP/DNS Build-It-Night';
 	$Mar_12_2015->location = 'Golisano, 70-2320';
@@ -38,7 +52,7 @@
 	$Nov_06_2014->time = '6:30 P.M. - 7:30 P.M.';
 	$Nov_06_2014->description = 'Initial NextHop Meeting!';
 
-	$events = array($No_Events);
+	$events = array($Apr_2_2015, $Apr_16_2015);
 	$pastevents = array($Mar_12_2015,$Feb_26_2015,$Nov_20_2014,$Nov_06_2014)
 
 ?>
