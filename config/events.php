@@ -9,6 +9,13 @@
 	$No_Events->time = '';
 	$No_Events->description = 'Please check back soon.';
 
+	$Apr_30_2015 = new Event();
+	$Apr_30_2015->title = 'Build-It-Night: PXE';
+	$Apr_30_2015->location = 'Golisano, 70-2320';
+	$Apr_30_2015->date = 'Thursday, April 30, 2015';
+	$Apr_30_2015->time = '7:00 P.M. - 9:00 P.M.';
+	$Apr_30_2015->description = 'Learn about PXE (Pre-Execution Environment) which involves booting an operating system on a computer over the network. You\'ll get to learn about it and build your own PXE server! This is a critical piece of technology used in many infrastructures to image machines and is not taught in any classes.';
+
 	$Apr_16_2015 = new Event();
 	$Apr_16_2015->title = 'Tech Talks';
 	$Apr_16_2015->location = 'TBD';
@@ -52,7 +59,7 @@
 	$Nov_06_2014->time = '6:30 P.M. - 7:30 P.M.';
 	$Nov_06_2014->description = 'Initial NextHop Meeting!';
 
-	$events = array($Apr_2_2015, $Apr_16_2015);
-	$pastevents = array($Mar_12_2015,$Feb_26_2015,$Nov_20_2014,$Nov_06_2014)
+	$events = array($Apr_16_2015, $Apr_30_2015);
+	$pastevents = array($Apr_2_2015,$Mar_12_2015,$Feb_26_2015,$Nov_20_2014,$Nov_06_2014)
 
 ?>
