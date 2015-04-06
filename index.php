@@ -40,9 +40,10 @@ if(window.mobilecheck()) {
 		<div class="sectionInner text">
 			<h1 class="sectionHeader"><i class="fa fa-question-circle"></i> What is NextHop?</h1>
 			<div class="padLeft">
-				<p>NextHop is an organization at the Rochester Institute of Technology geared towards students interested in the fields of networking and systems administration. The name NextHop comes from a networking term that describes the next router along a path to a given destination. The club serves two core functions: community building and knowledge development.
-				<p>The community building aspect of NextHop is geared towards bringing students together from multiple disciplines who share a core common interest set. Knowledge development is focused on building core and advanced level skills through a variety of workshops and presentations with topics ranging from basic skills to emerging technologies. Knowledge development spans both academic and professional knowledge spheres. </p>
-			</div>
+			    <p>NextHop is a club at the Rochester Institute of Technology (RIT) focused on networking and systems administration. NextHop is all about moving information and managing different services that run on a network.</p>
+
+                <p>Our interactive learning community is built on our hands-on Build-It-Nights where members configure and work with a new technology, and our informative TechTalks in which student members and industry professionals present and discuss new themes, technologies, and practices. Our members come from a diverse group of majors and experience levels. All are welcome to join us at any point during the academic year.</p>
+            </div>
 		</div>
 	</div>
 	<div class="section" id="governance_contact">
