@@ -51,7 +51,7 @@ if(window.mobilecheck()) {
 						Slides will be availble at the time of presentation.
 						<ul>
 							<li>
-								7:00-8:00: Wegmans Feature Presentation: Working in the Enterprise; Beyond the lab bench, Eric Dominik and Timothy Guyot <br />
+								7:00-8:00: <b>Wegmans Feature Presentation: Working in the Enterprise; Beyond the lab bench</b>, Eric Dominik and Timothy Guyot <br />
 								&nbsp;View slide sets <a href="http://nexthop.network/slides/041615/Wegmans-EnterpriseIT.pdf" target="_blank">here</a>.
 							</li>
 							<li>
