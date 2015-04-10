@@ -38,7 +38,7 @@ if(window.mobilecheck()) {
 				<div class="sectionInner text">
 					<h1 class="sectionHeader"><i class="fa fa-video-camera"></i> Live Stream</h1>
 					<div class="video">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/nz7dZxDHuUk?autoplay=1" frameborder="0" allowfullscreen></iframe>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/fkJI55jmMcg?autoplay=1" frameborder="0" allowfullscreen></iframe>
 					</div>
 				</div>
 			</div>
@@ -51,20 +51,16 @@ if(window.mobilecheck()) {
 						Slides will be availble at the time of presentation.
 						<ul>
 							<li>
-								7:00-8:00: Prof. Bruce Hartpence, Software Defined Networking <br />
-								&nbsp;View slide sets <a href="http://nexthop.network/slides/022615/Hartpence-SDN.pdf" target="_blank">here</a>.
+								7:00-8:00: Wegmans Feature Presentation: Working in the Enterprise; Beyond the lab bench, Eric Dominik and Timothy Guyot <br />
+								&nbsp;View slide sets <a href="http://nexthop.network/slides/041615/Wegmans-EnterpriseIT.pdf" target="_blank">here</a>.
 							</li>
 							<li>
-								8:00-8:20: Geoff Webster, Ansible Continuous Deployment <br />
-								&nbsp;View slide sets <a href="http://nexthop.network/slides/022615/Webster-Ansible.pdf" target="_blank">here</a>.
+								8:00-8:30: IPv6 and Stateless Address Auto Configuration (SLAAC), Prof. Garret Arcoraci <br />
+								&nbsp;View slide sets <a href="http://nexthop.network/slides/041615/Arcoraci-IPv6.pdf" target="_blank">here</a>.
 							</li>
 							<li>
-								8:20-8:40: Sean McConnell, Crafting Packets with Scapy <br />
-								&nbsp;View slide sets <a href="http://nexthop.network/slides/022615/McConnell-Scapy.pdf" target="_blank">here</a>.
-							</li>
-							<li>
-								8:40-9:00: Nathan Lichtenstein, Linux File Permissions <br />
-								&nbsp;View slide sets <a href="http://nexthop.network/slides/022615/Lichtenstein-Linux.pdf" target="_blank">here</a>.
+								8:30-9:00: Securing Your CentOS Box Using Google Authenticator, Nathan Lichtenstein <br />
+								&nbsp;View slide sets <a href="http://nexthop.network/slides/041615/Lichtenstein-GoogleAuthenticator.pdf" target="_blank">here</a>.
 							</li>
 						</ul>
 					</div>

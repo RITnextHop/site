@@ -18,10 +18,10 @@
 
 	$Apr_16_2015 = new Event();
 	$Apr_16_2015->title = 'Tech Talks';
-	$Apr_16_2015->location = 'TBD';
+	$Apr_16_2015->location = 'Golisano, 70-1455';
 	$Apr_16_2015->date = 'Thursday, April 16, 2015';
 	$Apr_16_2015->time = '7:00 P.M. - 9:00 P.M.';
-	$Apr_16_2015->description = 'Come learn about cool things! SysAdmins from Wegmans are coming!';
+	$Apr_16_2015->description = 'Come learn about cool things! SysAdmins from Wegmans are coming to teach us about Enterprise IT! There will also be presentations on IPv6 and securing a CentOS box with Google Authenticator! Please RSVP at <a href=\'http://goo.gl/forms/Il9eum43Zq\'>this link</a>';
 
 	$Apr_2_2015 = new Event();
 	$Apr_2_2015->title = 'Build-It-Night: The Lamp Stack';
