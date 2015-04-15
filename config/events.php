@@ -66,7 +66,7 @@
 	$Nov_06_2014->time = '6:30 P.M. - 7:30 P.M.';
 	$Nov_06_2014->description = 'Initial NextHop Meeting!';
 
-	$events = array($Apr_16_2015, $Apr_30_2015);
+	$events = array($Apr_16_2015, $Apr_30_2015, $May_14_2015);
 	$pastevents = array($Apr_2_2015,$Mar_12_2015,$Feb_26_2015,$Nov_20_2014,$Nov_06_2014)
 
 ?>
