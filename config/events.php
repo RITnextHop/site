@@ -9,6 +9,13 @@
 	$No_Events->time = '';
 	$No_Events->description = 'Please check back soon.';
 
+	$May_14_2015 = new Event();
+	$May_14_2015->title = 'Yahoo! Data Center Road Trip';
+	$May_14_2015->location = 'Meetup TBA';
+	$May_14_2015->date = 'Thursday, May 14, 2015 (Reading Day)';
+	$May_15_2015->time = 'TBA';
+	$May_14_2015->description = 'Hit the road with NextHop as we head out and tour the Yahoo! Data Center. More information to come!'
+
 	$Apr_30_2015 = new Event();
 	$Apr_30_2015->title = 'Build-It-Night: PXE';
 	$Apr_30_2015->location = 'Golisano, 70-2320';
