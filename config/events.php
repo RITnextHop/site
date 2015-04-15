@@ -14,7 +14,7 @@
 	$May_14_2015->location = 'Meetup TBA';
 	$May_14_2015->date = 'Thursday, May 14, 2015 (Reading Day)';
 	$May_15_2015->time = 'TBA';
-	$May_14_2015->description = 'Hit the road with NextHop as we head out and tour the Yahoo! Data Center. More information to come!'
+	$May_14_2015->description = 'Hit the road with NextHop as we head out and tour the Yahoo! Data Center. More information to come!';
 
 	$Apr_30_2015 = new Event();
 	$Apr_30_2015->title = 'Build-It-Night: PXE';
