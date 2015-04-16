@@ -60,7 +60,7 @@ if(window.mobilecheck()) {
 							</li>
 							<li>
 								8:30-9:00: Securing Your CentOS Box Using Google Authenticator, Nathan Lichtenstein <br />
-								&nbsp;View slide sets <a href="http://nexthop.network/slides/041615/Lichtenstein-GoogleAuthenticator.pdf" target="_blank">here</a>.
+								&nbsp;View slide sets <a href="http://lctnstn.com/fathom/centos-gauth.html" target="_blank">here</a>.
 							</li>
 						</ul>
 					</div>
