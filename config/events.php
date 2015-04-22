@@ -42,14 +42,14 @@
 	$Mar_12_2015->location = 'Golisano, 70-2320';
 	$Mar_12_2015->date = 'Thursday, March 12, 2015';
 	$Mar_12_2015->time = '7:00 P.M. - 9:00 P.M.';
-	$Mar_12_2015->description = 'Learn about DHCP or DNS or refresh your knowledge! Please RSVP at <a href=\'https://docs.google.com/forms/d/182wgtyvxIcB2u_atbOBR4Plot-uvNTE40lWGNjH9eBk/viewform?c=0&w=1\'>this link</a>';
+	$Mar_12_2015->description = 'Learn about DHCP or DNS or refresh your knowledge!';
 
 	$Feb_26_2015 = new Event();
 	$Feb_26_2015->title = 'Tech Talks';
 	$Feb_26_2015->location = 'Golisano, 70-1455';
 	$Feb_26_2015->date = 'Thursday, February 26, 2015';
 	$Feb_26_2015->time = '7:00 P.M. - 9:00 P.M.';
-	$Feb_26_2015->description = 'Come learn about cool things like SDN, Ansible, Scapy, and Linux FACLs! Please RSVP at <a href=\'http://goo.gl/forms/BT2s5pkPMa\'>this link</a>';
+	$Feb_26_2015->description = 'Come learn about cool things like SDN, Ansible, Scapy, and Linux FACLs!';
 
 	$Nov_20_2014 = new Event();
 	$Nov_20_2014->title = "Build-It-Night #1";
