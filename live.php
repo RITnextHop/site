@@ -39,6 +39,7 @@ if(window.mobilecheck()) {
 					<h1 class="sectionHeader"><i class="fa fa-video-camera"></i> Live Stream</h1>
 					<div class="video">
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/fkJI55jmMcg?autoplay=1" frameborder="0" allowfullscreen></iframe>
+						For older live streams, please see the <a href="events.php">events</a> page.
 					</div>
 				</div>
 			</div>
