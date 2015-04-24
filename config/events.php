@@ -28,7 +28,7 @@
 	$Apr_16_2015->location = 'Golisano, 70-1455';
 	$Apr_16_2015->date = 'Thursday, April 16, 2015';
 	$Apr_16_2015->time = '7:00 P.M. - 9:00 P.M.';
-	$Apr_16_2015->description = 'Come learn about cool things like SLAAC and Google Authenticator!  View the live stream <a href="https://www.youtube.com/watch?v=fkJI55jmMcg">here</a>';
+	$Apr_16_2015->description = 'Come learn about cool things like SLAAC and Google Authenticator! View the live stream <a href="https://www.youtube.com/watch?v=fkJI55jmMcg" target="_blank">here</a>.';
 
 	$Apr_2_2015 = new Event();
 	$Apr_2_2015->title = 'Build-It-Night: The Lamp Stack';
@@ -49,7 +49,7 @@
 	$Feb_26_2015->location = 'Golisano, 70-1455';
 	$Feb_26_2015->date = 'Thursday, February 26, 2015';
 	$Feb_26_2015->time = '7:00 P.M. - 9:00 P.M.';
-	$Feb_26_2015->description = 'Come learn about cool things like SDN, Ansible, Scapy, and Linux FACLs!';
+	$Feb_26_2015->description = 'Come learn about cool things like SDN, Ansible, Scapy, and Linux FACLs! View the live stream <a href="https://www.youtube.com/watch?v=nz7dZxDHuUk" target="_blank">here</a>.';
 
 	$Nov_20_2014 = new Event();
 	$Nov_20_2014->title = "Build-It-Night #1";
