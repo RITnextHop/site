@@ -35,14 +35,14 @@
 	$Apr_2_2015->location = 'Golisano, 70-2320';
 	$Apr_2_2015->date = 'Thursday, April 2, 2015';
 	$Apr_2_2015->time = '7:00 P.M. - 9:00 P.M.';
-	$Apr_2_2015->description = 'Join us to get down and dirty with the LAMP (Linux, Apache, MySQL, PHP) stack. Learn how to setup the infrastructure needed to support a dynamic website or web application. Learners of all skill levels are welcome.';
+	$Apr_2_2015->description = 'Join us to get down and dirty with the LAMP (Linux, Apache, MySQL, PHP) stack. Learn how to setup the infrastructure needed to support a dynamic website or web application. Learners of all skill levels are welcome. View the document <a href="http://nexthop.network/docs/bin3.pdf" target="_blank">here</a>.';
 
 	$Mar_12_2015 = new Event();
 	$Mar_12_2015->title = 'DHCP/DNS Build-It-Night';
 	$Mar_12_2015->location = 'Golisano, 70-2320';
 	$Mar_12_2015->date = 'Thursday, March 12, 2015';
 	$Mar_12_2015->time = '7:00 P.M. - 9:00 P.M.';
-	$Mar_12_2015->description = 'Learn about DHCP or DNS or refresh your knowledge!';
+	$Mar_12_2015->description = 'Learn about DHCP or DNS or refresh your knowledge! View the document <a href="http://nexthop.network/docs/bin2.pdf" target="_blank">here</a>.';
 
 	$Feb_26_2015 = new Event();
 	$Feb_26_2015->title = 'Tech Talks';
@@ -56,7 +56,7 @@
 	$Nov_20_2014->location = 'Golisano, 70-2130 - Projects Lab';
 	$Nov_20_2014->date = 'Thursday, November 20, 2014';
 	$Nov_20_2014->time = '7:00 P.M. - 9:00 P.M.';
-	$Nov_20_2014->description = 'First NextHop Build-It-Night: Multi-Vendor Networking!';
+	$Nov_20_2014->description = 'First NextHop Build-It-Night: Multi-Vendor Networking! View the document <a href="http://nexthop.network/docs/bin1.pdf" target="_blank">here</a>.';
 
 
 	$Nov_06_2014 = new Event();
