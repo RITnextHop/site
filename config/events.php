@@ -28,7 +28,7 @@
 	$Apr_16_2015->location = 'Golisano, 70-1455';
 	$Apr_16_2015->date = 'Thursday, April 16, 2015';
 	$Apr_16_2015->time = '7:00 P.M. - 9:00 P.M.';
-	$Apr_16_2015->description = 'Come learn about cool things like SLAAC and Google Authenticator!';
+	$Apr_16_2015->description = 'Come learn about cool things like SLAAC and Google Authenticator!  View the live stream <a href="https://www.youtube.com/watch?v=fkJI55jmMcg">here</a>';
 
 	$Apr_2_2015 = new Event();
 	$Apr_2_2015->title = 'Build-It-Night: The Lamp Stack';
