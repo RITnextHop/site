@@ -38,7 +38,7 @@ if(window.mobilecheck()) {
 	<?php include("config/header.php"); ?>
 	<div class="section" id="about">
 		<div class="sectionInner text">	
-		<p><strong>Reminder that our PXE boot build it night is tomorrow, Thursday 4/30 at 7pm in 70-2320.  Hope to see you there!</strong></p>
+		<p><strong><i class="fa fa-clock-o""></i> Reminder that our PXE boot build it night is tomorrow, Thursday 4/30 at 7pm in 70-2320.  Hope to see you there!</strong></p>
 		<hr>
 			<h1 class="sectionHeader"><i class="fa fa-question-circle"></i> What is NextHop?</h1>
 			<div class="padLeft">
