@@ -37,7 +37,8 @@ if(window.mobilecheck()) {
 <body id="home">
 	<?php include("config/header.php"); ?>
 	<div class="section" id="about">
-		<div class="sectionInner text">
+		<div class="sectionInner text">	
+		<p>Reminder that our PXE boot build it night is tomorrow, Thursday 4/30 at 7pm in 70-2320.  Hope to see you there!</p>
 			<h1 class="sectionHeader"><i class="fa fa-question-circle"></i> What is NextHop?</h1>
 			<div class="padLeft">
 			    <p>NextHop is a club at the Rochester Institute of Technology (RIT) focused on networking and systems administration. NextHop is all about moving information and managing different services that run on a network.</p>
