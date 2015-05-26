@@ -7,7 +7,7 @@
 	$No_Events->location = '';
 	$No_Events->date = '';
 	$No_Events->time = '';
-	$No_Events->description = 'Please check back soon.';
+	$No_Events->description = 'Thank you to everyone for a great first year. We hope to see everyone come back in the fall!';
 
 	$May_14_2015 = new Event();
 	$May_14_2015->title = 'Yahoo! Data Center Road Trip';
