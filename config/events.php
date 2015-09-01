@@ -9,6 +9,13 @@
 	$No_Events->time = '';
 	$No_Events->description = 'Thank you to everyone for a great first year. We hope to see everyone come back in the fall!';
 
+	$Sep_03_2015 = new Event();
+	$Sep_03_2015->title = 'General Meeting/Info Session';
+	$Sep_03_2015->location = 'Golisano, 70-1435';
+	$Sep_03_2015->date = 'Thursday, September 3, 2015';
+	$Sep_03_2015->time = '7:00 P.M. - 8:00 P.M.';
+	$Sep_03_2015->description = 'Info Session and Idea Collaboration';
+
 	$May_14_2015 = new Event();
 	$May_14_2015->title = 'Yahoo! Data Center Road Trip';
 	$May_14_2015->location = 'Meetup TBA';
@@ -66,7 +73,7 @@
 	$Nov_06_2014->time = '6:30 P.M. - 7:30 P.M.';
 	$Nov_06_2014->description = 'Initial NextHop Meeting!';
 
-	$events = array($No_Events);
+	$events = array($Sep_03_2015);
 	$pastevents = array($Apr_30_2015, $Apr_16_2015, $Apr_2_2015,$Mar_12_2015,$Feb_26_2015,$Nov_20_2014,$Nov_06_2014)
 
 ?>
