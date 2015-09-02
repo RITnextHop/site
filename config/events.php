@@ -14,7 +14,7 @@
 	$Sep_03_2015->location = 'Golisano, 70-1435';
 	$Sep_03_2015->date = 'Thursday, September 3, 2015';
 	$Sep_03_2015->time = '7:00 P.M. - 8:00 P.M.';
-	$Sep_03_2015->description = 'Info Session and Idea Collaboration. View the live stream <a href="live.php">here</a>.';
+	$Sep_03_2015->description = 'Info session and idea collaboration with an awesome demo! View the live stream <a href="live.php">here</a>.';
 
 	$May_14_2015 = new Event();
 	$May_14_2015->title = 'Yahoo! Data Center Road Trip';
