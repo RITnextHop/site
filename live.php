@@ -39,6 +39,7 @@ if(window.mobilecheck()) {
 					<h1 class="sectionHeader"><i class="fa fa-video-camera"></i> Live Stream - Tech Talks 4/16/15</h1>
 					<div class="video">
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/4s7hoGZLQOE" frameborder="0" allowfullscreen></iframe><br />
+						View the slides <a href="https://docs.google.com/presentation/d/19z-Qy__WXwp6VgkyMrIj_o8_HM7pBe6JagzLvCKKab8/edit?usp=sharing">here</a>.<br />
 						For older live streams, please see the <a href="events.php">events</a> page.
 					</div>
 				</div>
