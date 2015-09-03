@@ -46,10 +46,10 @@ if(window.mobilecheck()) {
 			</div>
 		</div>
 		<div class="fiftyFloat">
-			<div class="section" id="agenda">
+			<!--<div class="section" id="agenda">
 				<div class="sectionInner text">
 					<h1 class="sectionHeader"><i class="fa fa-calendar"></i> Agenda</h1>
-					<!-- <div class="padLeft">
+					 <div class="padLeft">
 						Slides will be availble at the time of presentation.
 						<ul>
 							<li>
