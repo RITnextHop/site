@@ -36,7 +36,7 @@ if(window.mobilecheck()) {
 			<div class="fiftyFloat">
 			<div class="section" id="videoSection">
 				<div class="sectionInner text">
-					<h1 class="sectionHeader"><i class="fa fa-video-camera"></i> Live Stream - Tech Talks 4/16/15</h1>
+					<h1 class="sectionHeader"><i class="fa fa-video-camera"></i> Live Stream - Fall General Meeting 9/3/15</h1>
 					<div class="video">
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/4s7hoGZLQOE" frameborder="0" allowfullscreen></iframe><br />
 						View the slides <a href="https://docs.google.com/presentation/d/19z-Qy__WXwp6VgkyMrIj_o8_HM7pBe6JagzLvCKKab8/edit?usp=sharing">here</a>.<br />
@@ -49,7 +49,7 @@ if(window.mobilecheck()) {
 			<div class="section" id="agenda">
 				<div class="sectionInner text">
 					<h1 class="sectionHeader"><i class="fa fa-calendar"></i> Agenda</h1>
-					<div class="padLeft">
+					<!-- <div class="padLeft">
 						Slides will be availble at the time of presentation.
 						<ul>
 							<li>
@@ -61,7 +61,7 @@ if(window.mobilecheck()) {
 								&nbsp;View slide sets <a href="http://lctnstn.com/fathom/centos-gauth.html" target="_blank">here</a>.
 							</li>
 						</ul>
-					</div>
+					</div>-->
 				</div>
 			</div>
 		</div>
