@@ -12,6 +12,7 @@
       <li><a href="/" class="navigationLink" id="homenav"><i class="fa fa-home" ></i> Home</a></li>
       <li><a href="/live" class="navigationLink" id="livenav"><i class="fa fa-video-camera"></i> Live Stream</a></li>
       <li><a href="/events" class="navigationLink" id="eventsnav"><i class="fa fa-calendar"></i> Events</a></li>
+      <li><a href="http://nsic.nexthop.network" class="navigationLink" id="eventsnav"><i class="fa fa-trophy"></i> NSIC</a></li>
     </ul>
   </div>
 </div>
