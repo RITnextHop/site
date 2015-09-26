@@ -9,6 +9,13 @@
 	$No_Events->time = '';
 	$No_Events->description = 'Thank you to everyone for a great first year. We hope to see everyone come back in the fall!';
 
+	$Oct_08_2015 = new Event();
+	$Oct_08_2015->title = 'Build-It-Night: BGP';
+	$Oct_08_2015->location = 'Golisano, 70-2160 (Netlab)';
+	$Oct_08_2015->date = 'Thursday, October 8, 2015';
+	$Oct_08_2015->time = '7:00 P.M. - 9:00 P.M.';
+	$Oct_08_2015->description = 'Learn about and configure BGP, the routing protocol of the internet.';
+
 	$Sep_03_2015 = new Event();
 	$Sep_03_2015->title = 'General Meeting/Info Session';
 	$Sep_03_2015->location = 'Golisano, 70-1435';
@@ -73,7 +80,7 @@
 	$Nov_06_2014->time = '6:30 P.M. - 7:30 P.M.';
 	$Nov_06_2014->description = 'Initial NextHop Meeting!';
 
-	$events = array($Sep_03_2015);
-	$pastevents = array($Apr_30_2015, $Apr_16_2015, $Apr_2_2015,$Mar_12_2015,$Feb_26_2015,$Nov_20_2014,$Nov_06_2014)
+	$events = array($Oct_08_2015);
+	$pastevents = array($Sep_03_2015, $Apr_30_2015, $Apr_16_2015, $Apr_2_2015,$Mar_12_2015,$Feb_26_2015,$Nov_20_2014,$Nov_06_2014)
 
 ?>
