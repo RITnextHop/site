@@ -21,7 +21,7 @@
 	$Oct_08_2015->location = 'Golisano, 70-2160 (Netlab)';
 	$Oct_08_2015->date = 'Thursday, October 8, 2015';
 	$Oct_08_2015->time = '7:00 P.M. - 9:00 P.M.';
-	$Oct_08_2015->description = 'Learn about and configure BGP, the routing protocol of the internet.';
+	$Oct_08_2015->description = 'Learn about and configure BGP, the routing protocol of the internet. View the document <a href="http://nexthop.network/docs/bgp.pdf" target="_blank">here</a>';
 
 	$Sep_03_2015 = new Event();
 	$Sep_03_2015->title = 'General Meeting/Info Session';
