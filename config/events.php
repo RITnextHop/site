@@ -9,12 +9,12 @@
 	$No_Events->time = '';
 	$No_Events->description = 'Check back soon for our next event!';
 
-	$Oct_15_2015 = new Event();
-	$Oct_15_2015->title = 'Tech Talk: Wireshark';
-	$Oct_15_2015->location = 'Golisano, 70-1435';
-	$Oct_15_2015->date = 'Thursday, November 12, 2015';
-	$Oct_15_2015->time = '7:00 P.M. - 9:00 P.M.';
-	$Oct_15_2015->description = 'Learn about Wireshark\'s features and how to use it.';
+	$Nov_12_2015 = new Event();
+	$Nov_12_2015->title = 'Tech Talk: Wireshark';
+	$Nov_12_2015->location = 'Golisano, 70-1435';
+	$Nov_12_2015->date = 'Thursday, November 12, 2015';
+	$Nov_12_2015->time = '7:00 P.M. - 9:00 P.M.';
+	$Nov_12_2015->description = 'Learn about Wireshark\'s features and how to use it.';
 	
 	$Oct_15_2015 = new Event();
 	$Oct_15_2015->title = 'Build-It-Night: ACLs and NAT';
@@ -94,7 +94,7 @@
 	$Nov_06_2014->time = '6:30 P.M. - 7:30 P.M.';
 	$Nov_06_2014->description = 'Initial NextHop Meeting!';
 
-	$events = array($Oct_15_2015);
-	$pastevents = array($Oct_08_2015, $Sep_03_2015, $Apr_30_2015, $Apr_16_2015, $Apr_2_2015,$Mar_12_2015,$Feb_26_2015,$Nov_20_2014,$Nov_06_2014)
+	$events = array($No_Events);
+	$pastevents = array($Nov_12_2015, $Oct_08_2015, $Sep_03_2015, $Apr_30_2015, $Apr_16_2015, $Apr_2_2015,$Mar_12_2015,$Feb_26_2015,$Nov_20_2014,$Nov_06_2014)
 
 ?>
