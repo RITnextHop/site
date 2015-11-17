@@ -7,8 +7,15 @@
 	$No_Events->location = '';
 	$No_Events->date = '';
 	$No_Events->time = '';
-	$No_Events->description = 'Thank you to everyone for a great first year. We hope to see everyone come back in the fall!';
+	$No_Events->description = 'Check back soon for our next event!';
 
+	$Oct_15_2015 = new Event();
+	$Oct_15_2015->title = 'Tech Talk: Wireshark';
+	$Oct_15_2015->location = 'Golisano, 70-1435';
+	$Oct_15_2015->date = 'Thursday, November 12, 2015';
+	$Oct_15_2015->time = '7:00 P.M. - 9:00 P.M.';
+	$Oct_15_2015->description = 'Learn about Wireshark\'s features and how to use it.';
+	
 	$Oct_15_2015 = new Event();
 	$Oct_15_2015->title = 'Build-It-Night: ACLs and NAT';
 	$Oct_15_2015->location = 'Golisano, 70-2160 (Netlab)';
