@@ -11,7 +11,7 @@
 
 	$Feb_3_2016 = new Event();
 	$Feb_3_2016->title = 'Securing Your Network';
-	$Feb_3_2016->location = 'Golisano, 70-2160';
+	$Feb_3_2016->location = 'Golisano, 70-2160 (Netlab)';
 	$Feb_3_2016->date = 'Wednesday, February 3, 2016';
 	$Feb_3_2016->time = '7:00 P.M. - 9:00 P.M.';
 	$Feb_3_2016->description = 'Want to know some simple steps to secure your network? We will be covering a range of topics including port security, DHCP snooping, dynamic ARP inspection, and IP source guard.';
