@@ -9,6 +9,14 @@
 	$No_Events->time = '';
 	$No_Events->description = 'Check back soon for our next event!';
 
+	$Feb_3_2016 = new Event();
+	$Feb_3_2016->title = 'Securing Your Network';
+	$Feb_3_2016->location = 'Golisano, 70-2160';
+	$Feb_3_2016->date = 'Wednesday, February 3, 2016';
+	$Feb_3_2016->time = '7:00 P.M. - 9:00 P.M.';
+	$Feb_3_2016->description = 'Want to know some simple steps to secure your network? We will be covering a range of topics including port security, DHCP snooping, dynamic ARP inspection, and IP source guard.';
+
+
 	$Nov_12_2015 = new Event();
 	$Nov_12_2015->title = 'Tech Talk: Wireshark';
 	$Nov_12_2015->location = 'Golisano, 70-1435';
