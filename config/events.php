@@ -8,14 +8,20 @@
 	$No_Events->date = '';
 	$No_Events->time = '';
 	$No_Events->description = 'Check back soon for our next event!';
+	
+	$Feb_17_2016 = new Event();
+	$Feb_17_2016->title = 'VPNs';
+	$Feb_17_2016->location = 'Golisano, 70-2160 (Netlab)';
+	$Feb_17_2016->date = 'Wednesday, February 17, 2016';
+	$Feb_17_2016->time = '7:00 P.M. - 9:00 P.M.';
+	$Feb_17_2016->description = 'We will be discussing how VPNs work and why they\'re used. Then you\'ll get the chance to make your own VPN using a Cisco ASA!';
 
 	$Feb_3_2016 = new Event();
 	$Feb_3_2016->title = 'Securing Your Network';
 	$Feb_3_2016->location = 'Golisano, 70-2160 (Netlab)';
 	$Feb_3_2016->date = 'Wednesday, February 3, 2016';
 	$Feb_3_2016->time = '7:00 P.M. - 9:00 P.M.';
-	$Feb_3_2016->description = 'Want to know some simple steps to secure your network? We will be covering a range of topics including port security, DHCP snooping, dynamic ARP inspection, and IP source guard.';
-
+	$Feb_3_2016->description = 'Want to know some simple steps to secure your network? We will be covering a range of topics including port security, DHCP snooping, dynamic ARP inspection, and IP source guard. View the document <a href="http://nexthop.network/docs/netsec.pdf" target="_blank">here</a>.';
 
 	$Nov_12_2015 = new Event();
 	$Nov_12_2015->title = 'Tech Talk: Wireshark';
@@ -29,14 +35,14 @@
 	$Oct_15_2015->location = 'Golisano, 70-2160 (Netlab)';
 	$Oct_15_2015->date = 'Thursday, October 15, 2015';
 	$Oct_15_2015->time = '7:00 P.M. - 9:00 P.M.';
-	$Oct_15_2015->description = 'Learn about and configure access control lists and how to implement NAT.';
+	$Oct_15_2015->description = 'Learn about and configure access control lists and how to implement NAT. View the document <a href="http://nexthop.network/docs/natacl.pdf" target="_blank">here</a>.';
 
 	$Oct_08_2015 = new Event();
 	$Oct_08_2015->title = 'Build-It-Night: BGP';
 	$Oct_08_2015->location = 'Golisano, 70-2160 (Netlab)';
 	$Oct_08_2015->date = 'Thursday, October 8, 2015';
 	$Oct_08_2015->time = '7:00 P.M. - 9:00 P.M.';
-	$Oct_08_2015->description = 'Learn about and configure BGP, the routing protocol of the internet. View the document <a href="http://nexthop.network/docs/bgp.pdf" target="_blank">here</a>';
+	$Oct_08_2015->description = 'Learn about and configure BGP, the routing protocol of the internet. View the document <a href="http://nexthop.network/docs/bgp.pdf" target="_blank">here</a>.';
 
 	$Sep_03_2015 = new Event();
 	$Sep_03_2015->title = 'General Meeting/Info Session';
@@ -102,7 +108,7 @@
 	$Nov_06_2014->time = '6:30 P.M. - 7:30 P.M.';
 	$Nov_06_2014->description = 'Initial NextHop Meeting!';
 
-	$events = array($Feb_3_2016);
-	$pastevents = array($Nov_12_2015, $Oct_08_2015, $Sep_03_2015, $Apr_30_2015, $Apr_16_2015, $Apr_2_2015,$Mar_12_2015,$Feb_26_2015,$Nov_20_2014,$Nov_06_2014)
+	$events = array($Feb_17_2016);
+	$pastevents = array($Feb_3_2016, $Nov_12_2015, $Oct_08_2015, $Sep_03_2015, $Apr_30_2015, $Apr_16_2015, $Apr_2_2015,$Mar_12_2015,$Feb_26_2015,$Nov_20_2014,$Nov_06_2014)
 
 ?>
