@@ -14,7 +14,7 @@
 	$Mar_2_2016->location = 'Golisano, 70-2130 (Projects Lab)';
 	$Mar_2_2016->date = 'Wednesday, March 2, 2016';
 	$Mar_2_2016->time = '7:00 P.M. - 9:00 P.M.';
-	$Mar_2_2016->description = 'Voice over IP is the modern phone technology that many companies have already switched to or are currently switching to.We will go over some basics of VoIP and how they differ from traditional phone systems. After that, you\'ll get to set up your own mini VoIP system and make some calls!';
+	$Mar_2_2016->description = 'Voice over IP is the modern phone technology that many companies have already switched to or are currently switching to. We will go over some basics of VoIP and how they differ from traditional phone systems. After that, you\'ll get to set up your own mini VoIP system and make some calls!';
 	
 	$Feb_17_2016 = new Event();
 	$Feb_17_2016->title = 'Build-It-Night: VPNs';
