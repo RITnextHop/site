@@ -14,7 +14,7 @@
 	$Feb_17_2016->location = 'Golisano, 70-2160 (Netlab)';
 	$Feb_17_2016->date = 'Wednesday, February 17, 2016';
 	$Feb_17_2016->time = '7:00 P.M. - 9:00 P.M.';
-	$Feb_17_2016->description = 'We will be discussing how VPNs work and why they\'re used. Then you\'ll get the chance to make your own VPN using a Cisco ASA!';
+	$Feb_17_2016->description = 'We will be discussing how VPNs work and why they\'re used. Then you\'ll get the chance to make your own VPN using a Cisco ASA! View the document <a href="http://nexthop.network/docs/vpn.pdf" target="_blank">here</a>.';
 
 	$Feb_3_2016 = new Event();
 	$Feb_3_2016->title = 'Securing Your Network';
@@ -108,7 +108,7 @@
 	$Nov_06_2014->time = '6:30 P.M. - 7:30 P.M.';
 	$Nov_06_2014->description = 'Initial NextHop Meeting!';
 
-	$events = array($Feb_17_2016);
-	$pastevents = array($Feb_3_2016, $Nov_12_2015, $Oct_08_2015, $Sep_03_2015, $Apr_30_2015, $Apr_16_2015, $Apr_2_2015,$Mar_12_2015,$Feb_26_2015,$Nov_20_2014,$Nov_06_2014)
+	$events = array($No_Events);
+	$pastevents = array($Feb_17_2016, $Feb_3_2016, $Nov_12_2015, $Oct_08_2015, $Sep_03_2015, $Apr_30_2015, $Apr_16_2015, $Apr_2_2015,$Mar_12_2015,$Feb_26_2015,$Nov_20_2014,$Nov_06_2014)
 
 ?>
