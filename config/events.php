@@ -9,15 +9,22 @@
 	$No_Events->time = '';
 	$No_Events->description = 'Check back soon for our next event!';
 	
+	$Mar_2_2016 = new Event();
+	$Mar_2_2016->title = 'Build-It-Night: VoIP';
+	$Mar_2_2016->location = 'Golisano, 70-2130 (Projects Lab)';
+	$Mar_2_2016->date = 'Wednesday, March 2, 2016';
+	$Mar_2_2016->time = '7:00 P.M. - 9:00 P.M.';
+	$Mar_2_2016->description = 'Voice over IP is the modern phone technology that many companies have already switched to or are currently switching to.We will go over some basics of VoIP and how they differ from traditional phone systems. After that, you\'ll get to set up your own mini VoIP system and make some calls!';
+	
 	$Feb_17_2016 = new Event();
-	$Feb_17_2016->title = 'VPNs';
+	$Feb_17_2016->title = 'Build-It-Night: VPNs';
 	$Feb_17_2016->location = 'Golisano, 70-2160 (Netlab)';
 	$Feb_17_2016->date = 'Wednesday, February 17, 2016';
 	$Feb_17_2016->time = '7:00 P.M. - 9:00 P.M.';
 	$Feb_17_2016->description = 'We will be discussing how VPNs work and why they\'re used. Then you\'ll get the chance to make your own VPN using a Cisco ASA! View the document <a href="http://nexthop.network/docs/vpn.pdf" target="_blank">here</a>.';
 
 	$Feb_3_2016 = new Event();
-	$Feb_3_2016->title = 'Securing Your Network';
+	$Feb_3_2016->title = 'Build-It-Night: Securing Your Network';
 	$Feb_3_2016->location = 'Golisano, 70-2160 (Netlab)';
 	$Feb_3_2016->date = 'Wednesday, February 3, 2016';
 	$Feb_3_2016->time = '7:00 P.M. - 9:00 P.M.';
@@ -80,7 +87,7 @@
 	$Apr_2_2015->description = 'Join us to get down and dirty with the LAMP (Linux, Apache, MySQL, PHP) stack. Learn how to setup the infrastructure needed to support a dynamic website or web application. Learners of all skill levels are welcome. View the document <a href="http://nexthop.network/docs/bin3.pdf" target="_blank">here</a>.';
 
 	$Mar_12_2015 = new Event();
-	$Mar_12_2015->title = 'DHCP/DNS Build-It-Night';
+	$Mar_12_2015->title = 'Build-It-Night: DHCP/DNS';
 	$Mar_12_2015->location = 'Golisano, 70-2320';
 	$Mar_12_2015->date = 'Thursday, March 12, 2015';
 	$Mar_12_2015->time = '7:00 P.M. - 9:00 P.M.';
@@ -94,7 +101,7 @@
 	$Feb_26_2015->description = 'Come learn about cool things like SDN, Ansible, Scapy, and Linux FACLs! View the live stream <a href="https://www.youtube.com/watch?v=nz7dZxDHuUk" target="_blank">here</a>.';
 
 	$Nov_20_2014 = new Event();
-	$Nov_20_2014->title = "Build-It-Night #1";
+	$Nov_20_2014->title = "Build-It-Night: Multi-Vendor Networking";
 	$Nov_20_2014->location = 'Golisano, 70-2130 - Projects Lab';
 	$Nov_20_2014->date = 'Thursday, November 20, 2014';
 	$Nov_20_2014->time = '7:00 P.M. - 9:00 P.M.';
@@ -108,7 +115,7 @@
 	$Nov_06_2014->time = '6:30 P.M. - 7:30 P.M.';
 	$Nov_06_2014->description = 'Initial NextHop Meeting!';
 
-	$events = array($No_Events);
+	$events = array($Mar_2_2016);
 	$pastevents = array($Feb_17_2016, $Feb_3_2016, $Nov_12_2015, $Oct_08_2015, $Sep_03_2015, $Apr_30_2015, $Apr_16_2015, $Apr_2_2015,$Mar_12_2015,$Feb_26_2015,$Nov_20_2014,$Nov_06_2014)
 
 ?>
