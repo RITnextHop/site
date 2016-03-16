@@ -8,14 +8,21 @@
 	$No_Events->date = '';
 	$No_Events->time = '';
 	$No_Events->description = 'Check back soon for our next event!';
-	
+
+	$Mar_16_2016 = new Event();
+	$Mar_16_2016->title = 'There are currently no scheduled events';
+	$Mar_16_2016->location = '';
+	$Mar_16_2016->date = '';
+	$Mar_16_2016->time = '';
+	$Mar_16_2016->description = 'Check back soon for our next event!';
+
 	$Mar_2_2016 = new Event();
 	$Mar_2_2016->title = 'Build-It-Night: VoIP';
 	$Mar_2_2016->location = 'Golisano, 70-2130 (Projects Lab)';
 	$Mar_2_2016->date = 'Wednesday, March 2, 2016';
 	$Mar_2_2016->time = '7:00 P.M. - 9:00 P.M.';
 	$Mar_2_2016->description = 'Voice over IP is the modern phone technology that many companies have already switched to or are currently switching to. We will go over some basics of VoIP and how they differ from traditional phone systems. After that, you\'ll get to set up your own mini VoIP system and make some calls!';
-	
+
 	$Feb_17_2016 = new Event();
 	$Feb_17_2016->title = 'Build-It-Night: VPNs';
 	$Feb_17_2016->location = 'Golisano, 70-2160 (Netlab)';
@@ -36,7 +43,7 @@
 	$Nov_12_2015->date = 'Thursday, November 12, 2015';
 	$Nov_12_2015->time = '7:00 P.M. - 9:00 P.M.';
 	$Nov_12_2015->description = 'Learn about Wireshark\'s features and how to use it.';
-	
+
 	$Oct_15_2015 = new Event();
 	$Oct_15_2015->title = 'Build-It-Night: ACLs and NAT';
 	$Oct_15_2015->location = 'Golisano, 70-2160 (Netlab)';
@@ -115,7 +122,7 @@
 	$Nov_06_2014->time = '6:30 P.M. - 7:30 P.M.';
 	$Nov_06_2014->description = 'Initial NextHop Meeting!';
 
-	$events = array($Mar_2_2016);
-	$pastevents = array($Feb_17_2016, $Feb_3_2016, $Nov_12_2015, $Oct_08_2015, $Sep_03_2015, $Apr_30_2015, $Apr_16_2015, $Apr_2_2015,$Mar_12_2015,$Feb_26_2015,$Nov_20_2014,$Nov_06_2014)
+	$events = array($Mar_16_2016);
+	$pastevents = array($Mar_2_2016,$Feb_17_2016, $Feb_3_2016, $Nov_12_2015, $Oct_08_2015, $Sep_03_2015, $Apr_30_2015, $Apr_16_2015, $Apr_2_2015,$Mar_12_2015,$Feb_26_2015,$Nov_20_2014,$Nov_06_2014)
 
 ?>
