@@ -10,11 +10,11 @@
 	$No_Events->description = 'Check back soon for our next event!';
 
 	$Mar_16_2016 = new Event();
-	$Mar_16_2016->title = 'There are currently no scheduled events';
-	$Mar_16_2016->location = '';
-	$Mar_16_2016->date = '';
-	$Mar_16_2016->time = '';
-	$Mar_16_2016->description = 'Check back soon for our next event!';
+	$Mar_16_2016->title = 'Tech Talk: Docker and IST Labs Infrastructure';
+	$Mar_16_2016->location = 'Golisano, 70-1435';
+	$Mar_16_2016->date = 'Wednesday, March 16, 2016';
+	$Mar_16_2016->time = '7:00 P.M. - 9:00 P.M.';
+	$Mar_16_2016->description = 'Come learn about Docker and the IST Labs infrastructure! If you cannot attend in person, you can watch it live<a href="live.php"> here</a>.';
 
 	$Mar_2_2016 = new Event();
 	$Mar_2_2016->title = 'Build-It-Night: VoIP';
