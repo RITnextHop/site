@@ -40,7 +40,7 @@ if(window.mobilecheck()) {
 					<div class="video">
 						<iframe width="500" height="315" src="https://www.youtube.com/embed/w_o-b7IZVhA" frameborder="0" allowfullscreen></iframe><br />
 						View the slides for the Docker presentation <a href="http://nexthop.network/docs/docker.pdf" target="_blank">here</a>.<br />
-            View the slides for the IST Labs Infrastructure presentation<a href="https://docs.google.com/a/g.rit.edu/presentation/d/1FwhIYU84c8dpOKqDdrWKZeSn7QzvKEl9pIgzmwgRl8o/edit?usp=sharing" target="_blank"> here</a>.<br />
+            View the slides for the IST Labs Infrastructure presentation<a href="docs/istlabs.pdf" target="_blank"> here</a>.<br />
 						For older live streams, please see the <a href="events.php">events</a> page.
 					</div>
 				</div>

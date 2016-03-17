@@ -3,18 +3,18 @@
 		public $title,$location,$date,$time,$description;
 	}
 	$No_Events = new Event();
-	$No_Events->title = 'There are currently no scheduled events';
+	$No_Events->title = 'There are currently no scheduled events.';
 	$No_Events->location = '';
 	$No_Events->date = '';
 	$No_Events->time = '';
-	$No_Events->description = 'Check back soon for our next event!';
+	$No_Events->description = 'Enjoy your spring break and check back soon for our next event!';
 
 	$Mar_16_2016 = new Event();
 	$Mar_16_2016->title = 'Tech Talk: Docker and IST Labs Infrastructure';
 	$Mar_16_2016->location = 'Golisano, 70-1435';
 	$Mar_16_2016->date = 'Wednesday, March 16, 2016';
 	$Mar_16_2016->time = '7:00 P.M. - 9:00 P.M.';
-	$Mar_16_2016->description = 'Come learn about Docker and the IST Labs infrastructure! If you cannot attend in person, you can watch it live<a href="live.php"> here</a>.';
+	$Mar_16_2016->description = 'Come learn about Docker and the IST Labs infrastructure! View the document on Docker & CoreOS<a href="docs/docker.pdf" target="_blank"> here</a> and the IST Labs Infrastructure document<a href="docs/istlabs.pdf" target="_blank"> here</a>.';
 
 	$Mar_2_2016 = new Event();
 	$Mar_2_2016->title = 'Build-It-Night: VoIP';
@@ -122,7 +122,7 @@
 	$Nov_06_2014->time = '6:30 P.M. - 7:30 P.M.';
 	$Nov_06_2014->description = 'Initial NextHop Meeting!';
 
-	$events = array($Mar_16_2016);
-	$pastevents = array($Mar_2_2016,$Feb_17_2016, $Feb_3_2016, $Nov_12_2015, $Oct_08_2015, $Sep_03_2015, $Apr_30_2015, $Apr_16_2015, $Apr_2_2015,$Mar_12_2015,$Feb_26_2015,$Nov_20_2014,$Nov_06_2014)
+	$events = array($No_Events);
+	$pastevents = array($Mar_16_2016, $Mar_2_2016, $Feb_17_2016, $Feb_3_2016, $Nov_12_2015, $Oct_08_2015, $Sep_03_2015, $Apr_30_2015, $Apr_16_2015, $Apr_2_2015,$Mar_12_2015,$Feb_26_2015,$Nov_20_2014,$Nov_06_2014)
 
 ?>
