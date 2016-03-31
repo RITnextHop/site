@@ -8,6 +8,13 @@
 	$No_Events->date = '';
 	$No_Events->time = '';
 	$No_Events->description = 'Enjoy your spring break and check back soon for our next event!';
+	
+	$Apr_16_2016 = new Event();
+	$Apr_16_2016->title = 'NSIC: Networking and Systems Infrastructure Competition';
+	$Apr_16_2016->location = 'Student Innovation Hall';
+	$Apr_16_2016->date = 'Saturday, April 16, 2016 - Sunday, April 17, 2016';
+	$Apr_16_2016->time = '8:45 AM - 7 PM (Sat), 9 AM - 3:30 PM (Sun)';
+	$Apr_16_2016->description = 'Our first Networking and Systems Infrastructure build competition. More information is available <a href="http://nsic.nexthop.network" target="_blank">here</a>.';
 
 	$Mar_16_2016 = new Event();
 	$Mar_16_2016->title = 'Tech Talk: Docker and IST Labs Infrastructure';
@@ -122,7 +129,7 @@
 	$Nov_06_2014->time = '6:30 P.M. - 7:30 P.M.';
 	$Nov_06_2014->description = 'Initial NextHop Meeting!';
 
-	$events = array($No_Events);
+	$events = array($Apr_16_2016);
 	$pastevents = array($Mar_16_2016, $Mar_2_2016, $Feb_17_2016, $Feb_3_2016, $Nov_12_2015, $Oct_08_2015, $Sep_03_2015, $Apr_30_2015, $Apr_16_2015, $Apr_2_2015,$Mar_12_2015,$Feb_26_2015,$Nov_20_2014,$Nov_06_2014)
 
 ?>
