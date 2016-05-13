@@ -108,7 +108,7 @@ if(window.mobilecheck()) {
 		</div>
 		<div class="section" id="footer-homepage">
 			<div class="sectionInner">
-				&copy; 2015 NextHop
+				&copy; 2016 NextHop
 			</div>
 		</div>
 	</div>

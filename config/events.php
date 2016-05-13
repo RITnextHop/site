@@ -7,7 +7,21 @@
 	$No_Events->location = '';
 	$No_Events->date = '';
 	$No_Events->time = '';
-	$No_Events->description = 'Enjoy your spring break and check back soon for our next event!';
+	$No_Events->description = 'We thank everyone for an awesome semester! Look for updates from the 2016-2017 executive board in the fall!';
+	
+	$May_12_2016 = new Event();
+	$May_12_2016->title = 'Tech Talk: DNSSec, TSIG, NAC, and Linux Hooks for Packets';
+	$May_12_2016->location = 'Golisano, 70-2590';
+	$May_12_2016->date = 'Thursday, May 12, 2016';
+	$May_12_2016->time = '7:00 P.M. - 9:00 P.M.';
+	$May_12_2016->description = 'Enjoy presentations by Professor Jonathan Weissman on DNSSec and TSIG, Anthony Critelli on Network Access Controls, and Brandt Woolf on Linux and its hooks for packets. View the live stream <a href="http://nexthop.network/live">here</a>.';
+	
+	$Apr_27_2016 = new Event();
+	$Apr_27_2016->title = 'Build-It-Night: Tunneling';
+	$Apr_27_2016->location = 'Golisano, 70-2160 (Netlab)';
+	$Apr_27_2016->date = 'Wednesday, April 27, 2016';
+	$Apr_27_2016->time = '7:00 P.M. - 9:00 P.M.';
+	$Apr_27_2016->description = 'Come learn about 6 to 4 tunnels and layer 2 tunneling. View the document <a href="http://nexthop.network/docs/tunneling.pdf" target="_blank">here</a>.';
 	
 	$Apr_16_2016 = new Event();
 	$Apr_16_2016->title = 'NSIC: Networking and Systems Infrastructure Competition';
@@ -129,7 +143,7 @@
 	$Nov_06_2014->time = '6:30 P.M. - 7:30 P.M.';
 	$Nov_06_2014->description = 'Initial NextHop Meeting!';
 
-	$events = array($Apr_16_2016);
-	$pastevents = array($Mar_16_2016, $Mar_2_2016, $Feb_17_2016, $Feb_3_2016, $Nov_12_2015, $Oct_08_2015, $Sep_03_2015, $Apr_30_2015, $Apr_16_2015, $Apr_2_2015,$Mar_12_2015,$Feb_26_2015,$Nov_20_2014,$Nov_06_2014)
+	$events = array($No_Events);
+	$pastevents = array($May_12_2016, $Apr_27_2016, $Apr_16_2016, $Mar_16_2016, $Mar_2_2016, $Feb_17_2016, $Feb_3_2016, $Nov_12_2015, $Oct_08_2015, $Sep_03_2015, $Apr_30_2015, $Apr_16_2015, $Apr_2_2015,$Mar_12_2015,$Feb_26_2015,$Nov_20_2014,$Nov_06_2014)
 
 ?>
